@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Heaven Resorts_Server.props" />
+</Project>

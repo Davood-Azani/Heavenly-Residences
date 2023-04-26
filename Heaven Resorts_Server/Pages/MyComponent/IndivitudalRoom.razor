@@ -1,0 +1,39 @@
+﻿@using Heaven_Resorts_Server.Model
+<div>
+    <h1>@Room.RoomName</h1>
+    <input type="checkbox" @onchange="CheckedTheRoom"/>
+
+    <h2>@Room.Id</h2>
+    <h3>@Room.Price.ToString("C")</h3>
+    <input type="checkbox" @bind-value="@Room.IsActive" checked="@Room.IsActive" />&nbsp; is Active <br />
+    <span>The room is @(Room.IsActive ? "Accupated" : "Not Accupated")</span>
+    <span>
+        @if (Room.IsActive)
+        {
+
+            <br />
+            foreach (var subItems in Room.RoomProps)
+            {
+                <span>@subItems.Name :@subItems.Value:@subItems.Id</span>
+                <br />
+            }
+        }
+    </span>
+</div>
+<ButtonComponent IsAdmin="@(Room.IsActive)" value="Edit" Class="btn btn-danger"></ButtonComponent>
+<ButtonComponent IsAdmin="@(Room.IsActive)" value="Confirm" Class="btn btn-success"></ButtonComponent>
+<hr />
+
+
+@code
+{
+    [Parameter]
+    public BlazorRoom Room { get; set; }
+[Parameter]
+    public EventCallback<bool> OnSelecetedRoom { get; set; }
+
+    protected async Task  CheckedTheRoom(ChangeEventArgs e)
+    {
+        await OnSelecetedRoom.InvokeAsync((bool)e.Value);
+    }
+}

@@ -1,0 +1,17 @@
+﻿@if (IsAdmin)
+{
+    <input type="button" class="@Class" value="@value" />
+    
+}
+
+
+@code
+{
+    
+    [Parameter]
+    public string value { get; set; }
+    [Parameter]
+    public bool IsAdmin { get; set; }
+    [Parameter]
+    public string Class { get; set; }
+}
