@@ -104,7 +104,7 @@ using Heaven_Resorts_Server.Model;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 29 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\MyComponent\IndivitudalRoom.razor"
+#line 30 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\MyComponent\IndivitudalRoom.razor"
  
     [Parameter]
     public BlazorRoom Room { get; set; }
