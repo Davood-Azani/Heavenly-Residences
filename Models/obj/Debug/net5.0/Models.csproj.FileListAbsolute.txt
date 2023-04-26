@@ -1,0 +1,12 @@
+D:\Heaven Resorts\Heaven Resorts\Models\bin\Debug\net5.0\Models.deps.json
+D:\Heaven Resorts\Heaven Resorts\Models\bin\Debug\net5.0\Models.dll
+D:\Heaven Resorts\Heaven Resorts\Models\bin\Debug\net5.0\Models.pdb
+D:\Heaven Resorts\Heaven Resorts\Models\obj\Debug\net5.0\Models.csproj.AssemblyReference.cache
+D:\Heaven Resorts\Heaven Resorts\Models\obj\Debug\net5.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Heaven Resorts\Heaven Resorts\Models\obj\Debug\net5.0\Models.AssemblyInfoInputs.cache
+D:\Heaven Resorts\Heaven Resorts\Models\obj\Debug\net5.0\Models.AssemblyInfo.cs
+D:\Heaven Resorts\Heaven Resorts\Models\obj\Debug\net5.0\Models.csproj.CoreCompileInputs.cache
+D:\Heaven Resorts\Heaven Resorts\Models\obj\Debug\net5.0\Models.dll
+D:\Heaven Resorts\Heaven Resorts\Models\obj\Debug\net5.0\refint\Models.dll
+D:\Heaven Resorts\Heaven Resorts\Models\obj\Debug\net5.0\Models.pdb
+D:\Heaven Resorts\Heaven Resorts\Models\obj\Debug\net5.0\ref\Models.dll

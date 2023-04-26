@@ -1,0 +1,12 @@
+D:\Heaven Resorts\Heaven Resorts\Common\bin\Debug\net5.0\Common.deps.json
+D:\Heaven Resorts\Heaven Resorts\Common\bin\Debug\net5.0\Common.dll
+D:\Heaven Resorts\Heaven Resorts\Common\bin\Debug\net5.0\Common.pdb
+D:\Heaven Resorts\Heaven Resorts\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+D:\Heaven Resorts\Heaven Resorts\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Heaven Resorts\Heaven Resorts\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+D:\Heaven Resorts\Heaven Resorts\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+D:\Heaven Resorts\Heaven Resorts\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+D:\Heaven Resorts\Heaven Resorts\Common\obj\Debug\net5.0\Common.dll
+D:\Heaven Resorts\Heaven Resorts\Common\obj\Debug\net5.0\refint\Common.dll
+D:\Heaven Resorts\Heaven Resorts\Common\obj\Debug\net5.0\Common.pdb
+D:\Heaven Resorts\Heaven Resorts\Common\obj\Debug\net5.0\ref\Common.dll

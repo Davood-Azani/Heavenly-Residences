@@ -1,0 +1,12 @@
+D:\Heaven Resorts\Heaven Resorts\Bussines\bin\Debug\net5.0\Bussines.deps.json
+D:\Heaven Resorts\Heaven Resorts\Bussines\bin\Debug\net5.0\Bussines.dll
+D:\Heaven Resorts\Heaven Resorts\Bussines\bin\Debug\net5.0\Bussines.pdb
+D:\Heaven Resorts\Heaven Resorts\Bussines\obj\Debug\net5.0\Bussines.csproj.AssemblyReference.cache
+D:\Heaven Resorts\Heaven Resorts\Bussines\obj\Debug\net5.0\Bussines.GeneratedMSBuildEditorConfig.editorconfig
+D:\Heaven Resorts\Heaven Resorts\Bussines\obj\Debug\net5.0\Bussines.AssemblyInfoInputs.cache
+D:\Heaven Resorts\Heaven Resorts\Bussines\obj\Debug\net5.0\Bussines.AssemblyInfo.cs
+D:\Heaven Resorts\Heaven Resorts\Bussines\obj\Debug\net5.0\Bussines.csproj.CoreCompileInputs.cache
+D:\Heaven Resorts\Heaven Resorts\Bussines\obj\Debug\net5.0\Bussines.dll
+D:\Heaven Resorts\Heaven Resorts\Bussines\obj\Debug\net5.0\refint\Bussines.dll
+D:\Heaven Resorts\Heaven Resorts\Bussines\obj\Debug\net5.0\Bussines.pdb
+D:\Heaven Resorts\Heaven Resorts\Bussines\obj\Debug\net5.0\ref\Bussines.dll
