@@ -5,13 +5,13 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heaven Resorts_Server", "Heaven Resorts_Server\Heaven Resorts_Server.csproj", "{E28072BE-126E-458A-9193-D24C7E67C16B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{A85C363A-9D46-49A1-8C72-AA3386F24ADB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{A85C363A-9D46-49A1-8C72-AA3386F24ADB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Bussines\Business.csproj", "{3BE65E29-8916-4A57-9A1A-3E5E2E20E10F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Bussines\Business.csproj", "{3BE65E29-8916-4A57-9A1A-3E5E2E20E10F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{E12397C0-3E16-4D5E-9AEF-DACC24A1F680}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{E12397C0-3E16-4D5E-9AEF-DACC24A1F680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{6FE73BFA-5165-427D-B70B-1B3DD1E9005C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{6FE73BFA-5165-427D-B70B-1B3DD1E9005C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

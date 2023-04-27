@@ -1,0 +1,72 @@
+﻿@page "/hotel-room"
+@using Models
+@using Business.Repository.IRepository
+@inject IHotelRoomRepository HotelRoomRepository
+
+
+<div class="row mt-4">
+    <div class="col-8">
+        <h4 class="card-title text-info">Hotel Room's</h4>
+    </div>
+    <div class="col-3 offset-1">
+        <NavLink href="hotel-room/create" class="btn btn-info form-control">Add New Room</NavLink>
+    </div>
+</div>
+<div class="row mt-4">
+    <div class="col-12">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Occupancy</th>
+                    <th>Rate</th>
+                    <th>Sqft</th>
+                    <th>Details</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            @if (model.Any())
+            {
+                foreach (var room in model)
+                {
+                    <tr>
+                        <td>@room.Name</td>
+                        <td>@room.Occupancy</td>
+                        <td>@room.RegularRate</td>
+                        <td>@room.SqFt</td>
+                        <td>@room.Details</td>
+                        <td>
+                            <NavLink href="@($"/hotel-room/edit/{room.Id}")" class="btn btn-primary">Edit</NavLink>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
+                }
+               
+            }
+            else
+            {
+                <tr >
+                    <td colspan="6">No records found</td>
+                </tr>
+            }
+            </tbody>
+
+        </table>
+    </div>
+</div>
+
+
+@code {
+
+    private IEnumerable<HotelRoomDTO> model { get; set; } = new List<HotelRoomDTO>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        model = await HotelRoomRepository.GetAllHotelRooms();
+    }
+
+
+}
+
+

@@ -61,6 +61,42 @@ namespace DataAccess.Migrations
 
                     b.ToTable("HotelRooms");
                 });
+
+            modelBuilder.Entity("DataAccess.Data.Models.HotelRoomImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int>("RoomId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("RoomImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RoomId");
+
+                    b.ToTable("HotelRoomImage");
+                });
+
+            modelBuilder.Entity("DataAccess.Data.Models.HotelRoomImage", b =>
+                {
+                    b.HasOne("DataAccess.Data.Models.HotelRoom", "HotelRoom")
+                        .WithMany("HotelRoomImages")
+                        .HasForeignKey("RoomId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("HotelRoom");
+                });
+
+            modelBuilder.Entity("DataAccess.Data.Models.HotelRoom", b =>
+                {
+                    b.Navigation("HotelRoomImages");
+                });
 #pragma warning restore 612, 618
         }
     }

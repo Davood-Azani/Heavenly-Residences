@@ -97,7 +97,7 @@ using Heaven_Resorts_Server.Pages.MyComponent;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Shared\NavMenu.razor"
+#line 38 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

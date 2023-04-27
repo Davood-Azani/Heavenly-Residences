@@ -35,10 +35,12 @@
         "dependencies": {
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
+          "Business": "1.0.0",
           "DataAccess": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.0",
+          "Models": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -1322,6 +1324,19 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Business/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "DataAccess": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "runtime": {
+          "Business.dll": {}
+        },
+        "compile": {
+          "Business.dll": {}
+        }
+      },
       "DataAccess/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
@@ -1331,6 +1346,14 @@
         },
         "compile": {
           "DataAccess.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "runtime": {
+          "Models.dll": {}
+        },
+        "compile": {
+          "Models.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3732,7 +3755,17 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
+    "Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

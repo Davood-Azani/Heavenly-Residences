@@ -11,6 +11,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using Business.Repository;
+using Business.Repository.IRepository;
 using DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -32,7 +34,7 @@ namespace Heaven_Resorts_Server
             services.AddDbContext<ApplicationDbContext>(option =>
                 option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-            
+            services.AddScoped<IHotelRoomRepository, HotelRoomRepository>();
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();

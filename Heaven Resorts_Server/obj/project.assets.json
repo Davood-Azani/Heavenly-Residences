@@ -1786,6 +1786,21 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "DataAccess": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
       "DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1797,6 +1812,16 @@
         },
         "runtime": {
           "bin/placeholder/DataAccess.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
         }
       }
     }
@@ -6114,20 +6139,32 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Business/1.0.0": {
+      "type": "project",
+      "path": "../Bussines/Business.csproj",
+      "msbuildProject": "../Bussines/Business.csproj"
+    },
     "DataAccess/1.0.0": {
       "type": "project",
       "path": "../DataAccess/DataAccess.csproj",
       "msbuildProject": "../DataAccess/DataAccess.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.0",
+      "Business >= 1.0.0",
       "DataAccess >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
+      "Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6165,8 +6202,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\Heaven Resorts\\Heaven Resorts\\Bussines\\Business.csproj": {
+              "projectPath": "D:\\Heaven Resorts\\Heaven Resorts\\Bussines\\Business.csproj"
+            },
             "D:\\Heaven Resorts\\Heaven Resorts\\DataAccess\\DataAccess.csproj": {
               "projectPath": "D:\\Heaven Resorts\\Heaven Resorts\\DataAccess\\DataAccess.csproj"
+            },
+            "D:\\Heaven Resorts\\Heaven Resorts\\Models\\Models.csproj": {
+              "projectPath": "D:\\Heaven Resorts\\Heaven Resorts\\Models\\Models.csproj"
             }
           }
         }

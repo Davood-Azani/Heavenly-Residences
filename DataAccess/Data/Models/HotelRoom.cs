@@ -22,6 +22,6 @@ namespace DataAccess.Data.Models
         public DateTime UpdatedDate { get; set; }
         public bool IsDeleted { get; set; } = false;
 
-        //public virtual ICollection<HotelRoomImage> HotelRoomImages { get; set; }
+        public virtual ICollection<HotelRoomImage> HotelRoomImages { get; set; }
     }
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomList.razor</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Shared\NavMenu.razor</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomUpsert.razor</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\HiddenVillaBlazor-master\HiddenVillaBlazor-master\HiddenVilla_Server\Pages\HotelRoom\HotelRoomUpsert.razor</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\wwwroot\js\common.js</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>
