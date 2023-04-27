@@ -7,6 +7,7 @@ namespace DataAccess.Data.Models
         public int Id { get; set; }
         public int RoomId { get; set; }
         public string RoomImageUrl { get; set; }
+        public bool IsDeleted { get; set; } = false;
         [ForeignKey("RoomId")]
         public virtual HotelRoom HotelRoom { get; set; }
     }
