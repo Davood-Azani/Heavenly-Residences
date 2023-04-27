@@ -86,15 +86,15 @@ namespace Business.Repository
             }
         }
 
-        public  async Task<int> DeleteHotelRoom(int roomId)
+        public async Task<int> DeleteHotelRoom(int roomId)
         {
             try
             {
                 var hotelroom = await GetHotelRoom(roomId);
-                if (hotelroom!=null)
+                if (hotelroom != null)
                 {
                     hotelroom.IsDeleted = true;
-                   return await _db.SaveChangesAsync();
+                    return await _db.SaveChangesAsync();
 
                 }
                 return 0;
@@ -110,7 +110,7 @@ namespace Business.Repository
             try
             {
                 var mappedModel =
-                    _mapper.Map<IEnumerable<HotelRoomDTO>>(_db.HotelRooms.Where(a=>!a.IsDeleted));
+                    _mapper.Map<IEnumerable<HotelRoomDTO>>(_db.HotelRooms.Where(a => !a.IsDeleted));
                 return mappedModel;
             }
             catch (Exception e)
@@ -120,16 +120,29 @@ namespace Business.Repository
         }
 
         //if not it returns null otherwise obj
-        public async Task<HotelRoomDTO> IsRoomUniq(string name)
+        public async Task<HotelRoomDTO> IsRoomUniq(string name, int roomId = 0)
         {
             try
             {
-                var mappedModel =
+                if (roomId == 0)
+                {
+                    var mappedModel =
                     _mapper.Map<HotelRoomDTO>(await _db.HotelRooms
-                        .FirstOrDefaultAsync(a =>!a.IsDeleted &&a.Name.ToLower() == name.ToLower()));
+                        .FirstOrDefaultAsync(a => !a.IsDeleted && a.Name.ToLower() == name.ToLower()));
 
 
-                return mappedModel;
+                    return mappedModel;
+                }
+                else
+                {
+                    var mappedModel =
+                        _mapper.Map<HotelRoomDTO>(await _db.HotelRooms
+                            .FirstOrDefaultAsync(a => !a.IsDeleted && a.Name.ToLower() == name.ToLower() && a.Id != roomId));
+
+
+                    return mappedModel;
+                }
+
             }
             catch (Exception e)
             {

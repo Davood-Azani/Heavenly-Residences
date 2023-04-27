@@ -3,6 +3,7 @@
 @using Models
 @using Business.Repository.IRepository
 @using Heaven_Resorts_Server.Helper
+@using Microsoft.EntityFrameworkCore.Design
 @inject IHotelRoomRepository HotelRoomRepository
 @inject NavigationManager NavigationManager
 @inject IJSRuntime JsRuntime
@@ -74,26 +75,6 @@
     //}
 
     #endregion
-    private async Task HandledHotelRoomUpsert()
-
-    {
-        var roomDetailsByName = await HotelRoomRepository.IsRoomUniq(model.Name);
-        if (roomDetailsByName != null)
-        {
-            //Show Error
-            // await FailureAlert(); or better is below
-
-            await JsRuntime.ToastrError("We've got some Errors!!");
-            return;
-            ;
-        }
-        var createRoom = await HotelRoomRepository.CreateHotelRoom(model);
-        //await SuccessAlert();
-        await JsRuntime.ToastrSuccess("Done!");
-        NavigationManager.NavigateTo("hotel-room");
-
-    }
-
     protected async override Task OnInitializedAsync()
     {
         if (Id != null)
@@ -113,5 +94,50 @@
         //return base.OnInitializedAsync();
 
     }
+
+
+    private async Task HandledHotelRoomUpsert()
+
+    {
+        try
+        {
+            var roomDetailsByName = await HotelRoomRepository.IsRoomUniq(model.Name,model.Id);
+            if (roomDetailsByName != null)
+            {
+                //Show Error
+                // await FailureAlert(); or better is below
+
+                await JsRuntime.ToastrError("Room Name already exists");
+                return;
+                ;
+            }
+            if (model.Id != 0 && Title == "Update")
+            {
+                //Update
+                var updateRoomResult = await HotelRoomRepository.UpdateHotelRoom(model.Id, model);
+                await JsRuntime.ToastrSuccess("Hotel Room Updated Successfully!");
+            }
+            else
+            {
+                //Create
+                var createRoom = await HotelRoomRepository.CreateHotelRoom(model);
+                await JsRuntime.ToastrSuccess("Hotel Room Created Successfully!");
+
+            }
+        }
+        catch (Exception e)
+        {
+            //Log Exception
+            await JsRuntime.ToastrError("Unknown Error is Occurred!");
+        }
+
+
+        //await SuccessAlert();
+        //await JsRuntime.ToastrSuccess("Done!");
+        NavigationManager.NavigateTo("hotel-room");
+
+    }
+
+
 
 }
