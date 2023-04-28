@@ -90,6 +90,13 @@ using Heaven_Resorts_Server.Pages.MyComponent;
 #line hidden
 #nullable disable
 #nullable restore
+#line 12 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\_Imports.razor"
+using Blazored.TextEditor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\Index.razor"
 using Heaven_Resorts_Server.Model;
 

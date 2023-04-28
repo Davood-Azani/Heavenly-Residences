@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link href="css/site.css" rel="stylesheet" />
     <link href="Heaven Resorts_Server.styles.css" rel="stylesheet" />
+    @*<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">*@
+    <link href="/css/quill/quill.snow.min.css" rel="stylesheet">
+    @*<link href="https://cdn.quilljs.com/1.3.6/quill.bubble.css" rel="stylesheet">*@
+    <link href="/css/quill/quill.bubble.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
 
 </head>
@@ -37,7 +41,11 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
     <script src="https://kit.fontawesome.com/e19c476714.js" crossorigin="anonymous"></script>
-    <script src="_framework/blazor.server.js"></script>
+    @*<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>*@
+    <script src="lib/quill/quill.min.js"></script>
+    <script src="_content/Blazored.TextEditor/quill-blot-formatter.min.js"></script>
+    <script src="_content/Blazored.TextEditor/Blazored-BlazorQuill.js"></script>
     <script src="~/js/common.js"></script>
+    <script src="_framework/blazor.server.js"></script>
 </body>
 </html>

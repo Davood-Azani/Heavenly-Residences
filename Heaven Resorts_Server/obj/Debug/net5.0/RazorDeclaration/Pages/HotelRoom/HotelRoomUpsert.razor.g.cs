@@ -90,6 +90,13 @@ using Heaven_Resorts_Server.Pages.MyComponent;
 #line hidden
 #nullable disable
 #nullable restore
+#line 12 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\_Imports.razor"
+using Blazored.TextEditor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
 using Models;
 
@@ -148,7 +155,7 @@ using Heaven_Resorts_Server.Services.IService;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 89 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 121 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
        
 
     [Parameter]
@@ -160,6 +167,8 @@ using Heaven_Resorts_Server.Services.IService;
     private HotelRoomImageDTO RoomImage { get; set; } = new HotelRoomImageDTO();
     private List<string> DeletedImageNames { get; set; } = new List<string>();
     private bool IsImageUploadProcessStarted { get; set; } = false;
+    private BlazoredTextEditor QuillHtml { get; set; } = new BlazoredTextEditor();
+
     #region Comment
 
     //private async Task SuccessAlert()
@@ -194,10 +203,37 @@ using Heaven_Resorts_Server.Services.IService;
             model = new HotelRoomDTO();
         }
 
+
         //return base.OnInitializedAsync();
 
     }
 
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        //SetHTML();
+        if (!firstRender)
+            return;
+        bool loading = true;
+        while (loading)
+        {
+            try
+            {
+                if (!string.IsNullOrEmpty(model.Details))
+                {
+                    await this.QuillHtml.LoadHTMLContent(model.Details);
+                }
+                loading = false;
+            }
+            catch
+            {
+                await Task.Delay(10);
+                loading = true;
+            }
+        }
+
+
+        //return base.OnAfterRenderAsync(firstRender);
+    }
 
     private async Task HandledHotelRoomUpsert()
 
@@ -216,6 +252,7 @@ using Heaven_Resorts_Server.Services.IService;
             }
             if (model.Id != 0 && Title == "Update")
             {
+                model.Details = await QuillHtml.GetHTML();
                 //Update
                 var updateRoomResult = await HotelRoomRepository.UpdateHotelRoom(model.Id, model);
                 if (model.ImageUrls != null && model.ImageUrls.Any())
@@ -239,16 +276,21 @@ using Heaven_Resorts_Server.Services.IService;
             else
             {
                 //Create
+                model.Details = await QuillHtml.GetHTML();
                 var createRoom = await HotelRoomRepository.CreateHotelRoom(model);
+                //if (createRoom.HotelRoomImages.Any())
+                //{
+                //    await AddHotelRoomImage(createRoom);
+                //}
                 await AddHotelRoomImage(createRoom);
                 await JsRuntime.ToastrSuccess("Hotel Room Created Successfully!");
 
             }
         }
-        catch (Exception e)
+        catch (Exception ex)
         {
             //Log Exception
-            await JsRuntime.ToastrError("Unknown Error is Occurred!");
+            await JsRuntime.ToastrError($"Unknown Error is Occurred!:{ex.Message}");
         }
 
 
@@ -260,6 +302,14 @@ using Heaven_Resorts_Server.Services.IService;
 
     private async Task AddHotelRoomImage(HotelRoomDTO roomDetails)
     {
+        //if (model.ImageUrls.Count> 0 && model.ImageUrls.Any())
+        //{
+        //if (model.ImageUrls.Any())
+        //{
+        if (model.ImageUrls ==null)
+        {
+            model.ImageUrls = new List<string>();
+        }
         foreach (var imageUrl in model.ImageUrls)
         {
             if (model.HotelRoomImages == null || model.HotelRoomImages.Where(x => x.RoomImageUrl == imageUrl).Count() == 0)
@@ -272,7 +322,12 @@ using Heaven_Resorts_Server.Services.IService;
                 };
                 await ImagesRepository.CreateHotelRoomImage(RoomImage);
             }
+            //}
+            //}
         }
+
+
+
     }
 
     private async Task HandleImageUpload(InputFileChangeEventArgs e)
@@ -280,15 +335,16 @@ using Heaven_Resorts_Server.Services.IService;
         IsImageUploadProcessStarted = true;
         try
         {
-            var images = new List<string>();
+            var images = new List<string>
+    ();
             if (e.GetMultipleFiles().Count > 0)
             {
                 foreach (var file in e.GetMultipleFiles())
                 {
                     FileInfo fileInfo = new FileInfo(file.Name);
                     if (fileInfo.Extension.ToLower() == ".jpg" ||
-                        fileInfo.Extension.ToLower() == ".png" ||
-                        fileInfo.Extension.ToLower() == ".jpeg")
+                    fileInfo.Extension.ToLower() == ".png" ||
+                    fileInfo.Extension.ToLower() == ".jpeg")
                     {
                         var uploadedImagePath = await FileUpload.UploadFile(file);
                         images.Add(uploadedImagePath);
@@ -341,7 +397,8 @@ using Heaven_Resorts_Server.Services.IService;
             else
             {
                 //update
-                DeletedImageNames ??= new List<string>();
+                DeletedImageNames ??= new List<string>
+                    ();
                 DeletedImageNames.Add(imageUrl);
             }
             model.ImageUrls.RemoveAt(imageIndex);
@@ -352,6 +409,15 @@ using Heaven_Resorts_Server.Services.IService;
         }
 
     }
+
+    //public void SetHTML()
+    //{
+    //    if (!string.IsNullOrEmpty(model.Details))
+    //    {
+    //        this.QuillHtml.LoadHTMLContent(model.Details);
+    //    }
+    //    StateHasChanged();
+    //}
 
 #line default
 #line hidden

@@ -89,6 +89,13 @@ using Heaven_Resorts_Server.Pages.MyComponent;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\_Imports.razor"
+using Blazored.TextEditor;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : global::Microsoft.AspNetCore.Components.ComponentBase
     {

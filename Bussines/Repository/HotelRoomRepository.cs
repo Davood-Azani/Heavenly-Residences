@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -75,7 +76,7 @@ namespace Business.Repository
             try
             {
                 var mappedModel =
-                    _mapper.Map<HotelRoomDTO>(await _db.HotelRooms
+                    _mapper.Map<HotelRoomDTO>(await _db.HotelRooms.Include(a => a.HotelRoomImages.Where(a => !a.IsDeleted))
                         .FirstOrDefaultAsync(a => a.Id == roomId && !a.IsDeleted));
 
                 return mappedModel;
@@ -90,10 +91,33 @@ namespace Business.Repository
         {
             try
             {
-                var hotelroom = await GetHotelRoom(roomId);
+                var hotelroom = await _db.HotelRooms.FindAsync(roomId);
+
+
                 if (hotelroom != null)
                 {
+
                     hotelroom.IsDeleted = true;
+                    //await _db.SaveChangesAsync();
+                    var allimages = await _db.HotelRoomImages
+                        .Where(a => a.RoomId == roomId &&
+                                    !a.IsDeleted).ToListAsync();
+                    if (allimages.Any())
+                    {
+                        foreach (var image in allimages)
+                        {
+                            //if (File.Exists(image.RoomImageUrl))
+                            //{
+                            //    File.Delete(image.RoomImageUrl);
+                            //}
+
+                            image.IsDeleted = true;
+                            //await _db.SaveChangesAsync();
+                        }
+                    }
+
+
+
                     return await _db.SaveChangesAsync();
 
                 }
@@ -110,7 +134,7 @@ namespace Business.Repository
             try
             {
                 var mappedModel =
-                    _mapper.Map<IEnumerable<HotelRoomDTO>>(_db.HotelRooms.Include(a=>a.HotelRoomImages.Where(a=>!a.IsDeleted)).Where(a => !a.IsDeleted));
+                    _mapper.Map<IEnumerable<HotelRoomDTO>>(_db.HotelRooms.Include(a => a.HotelRoomImages.Where(a => !a.IsDeleted)).Where(a => !a.IsDeleted));
                 return mappedModel;
             }
             catch (Exception e)
@@ -127,7 +151,7 @@ namespace Business.Repository
                 if (roomId == 0)
                 {
                     var mappedModel =
-                    _mapper.Map<HotelRoomDTO>(await _db.HotelRooms.Include(a=>a.HotelRoomImages.Where(a=>!a.IsDeleted))
+                    _mapper.Map<HotelRoomDTO>(await _db.HotelRooms.Include(a => a.HotelRoomImages.Where(a => !a.IsDeleted))
                         .FirstOrDefaultAsync(a => !a.IsDeleted && a.Name.ToLower() == name.ToLower()));
 
 

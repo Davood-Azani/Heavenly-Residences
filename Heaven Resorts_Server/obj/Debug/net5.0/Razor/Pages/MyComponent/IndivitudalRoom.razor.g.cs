@@ -87,6 +87,13 @@ using Heaven_Resorts_Server.Pages.MyComponent;
 #line hidden
 #nullable disable
 #nullable restore
+#line 12 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\_Imports.razor"
+using Blazored.TextEditor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\MyComponent\IndivitudalRoom.razor"
 using Heaven_Resorts_Server.Model;
 

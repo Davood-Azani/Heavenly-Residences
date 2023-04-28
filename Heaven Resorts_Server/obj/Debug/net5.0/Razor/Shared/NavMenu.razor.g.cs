@@ -86,6 +86,13 @@ using Heaven_Resorts_Server.Pages.MyComponent;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\_Imports.razor"
+using Blazored.TextEditor;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : global::Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

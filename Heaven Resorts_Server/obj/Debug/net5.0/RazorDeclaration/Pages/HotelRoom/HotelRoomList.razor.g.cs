@@ -90,6 +90,13 @@ using Heaven_Resorts_Server.Pages.MyComponent;
 #line hidden
 #nullable disable
 #nullable restore
+#line 12 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\_Imports.razor"
+using Blazored.TextEditor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomList.razor"
 using Models;
 
@@ -103,6 +110,27 @@ using Business.Repository.IRepository;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomList.razor"
+using Heaven_Resorts_Server.Helper;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomList.razor"
+using Heaven_Resorts_Server.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomList.razor"
+using Heaven_Resorts_Server.Services.IService;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Components.RouteAttribute("/hotel-room")]
     public partial class HotelRoomList : global::Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -112,25 +140,59 @@ using Business.Repository.IRepository;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 60 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomList.razor"
+#line 65 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomList.razor"
        
 
     private IEnumerable<HotelRoomDTO> model { get; set; } = new List<HotelRoomDTO>();
-
+    private int? DeleteRoomId { get; set; } = null;
+    private bool IsProcessing { get; set; } = false;
+    string x = "";
     protected override async Task OnInitializedAsync()
     {
         model = await HotelRoomRepository.GetAllHotelRooms();
     }
 
-    protected override async Task OnAfterRenderAsync(bool firstRender)
+    #region Comment
+
+    //protected override async Task OnAfterRenderAsync(bool firstRender)
+    //{
+    //    await JsRuntime.InvokeVoidAsync("ShowDeleteConfirmationModal");
+    //}
+
+    #endregion
+    private async Task HandleDelete(int roomId)
     {
+        DeleteRoomId = roomId;
+
         await JsRuntime.InvokeVoidAsync("ShowDeleteConfirmationModal");
     }
+    public async Task ConfirmDelete_Click(bool isConfirmed)
+    {
+        IsProcessing = true;
+        if (isConfirmed && DeleteRoomId != null)
+        {
+            HotelRoomDTO hotelRoom = await HotelRoomRepository.GetHotelRoom(DeleteRoomId.Value);
+            foreach (var image in hotelRoom.HotelRoomImages)
+            {
+                x = $"{NavigationManager.BaseUri}RoomImages/";
+                var imageName = image.RoomImageUrl.Replace($"RoomImages/", "");
 
+                FileUpload.DeleteFile(imageName);
+            }
+
+            await HotelRoomRepository.DeleteHotelRoom(DeleteRoomId.Value);
+            await JsRuntime.ToastrSuccess("Hotel Room Deleted successfully");
+            model = await HotelRoomRepository.GetAllHotelRooms();
+        }
+        await JsRuntime.InvokeVoidAsync("HideDeleteConfirmationModal");
+        IsProcessing = false;
+    }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IFileUpload FileUpload { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime JsRuntime { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IHotelRoomRepository HotelRoomRepository { get; set; }
     }

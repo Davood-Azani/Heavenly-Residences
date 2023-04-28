@@ -43,11 +43,43 @@
                         <label>Sq ft</label>
                         <InputText @bind-Value="model.SqFt" class="form-control"></InputText>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group" style="height: 250px;">
                         <label>Details</label>
-                        <InputTextArea @bind-Value="model.Details" class="form-control"></InputTextArea>
+                        @*<InputTextArea @bind-Value="model.Details" class="form-control"></InputTextArea>*@
+                        <BlazoredTextEditor @ref="@QuillHtml" Placeholder="Please enter room details">
+                            <ToolbarContent>
+                                <select class="ql-header">
+                                    <option selected=""></option>
+                                    <option value="1"></option>
+                                    <option value="2"></option>
+                                    <option value="3"></option>
+                                    <option value="4"></option>
+                                    <option value="5"></option>
+                                </select>
+                                <span class="ql-formats">
+                                    <button class="ql-bold"></button>
+                                    <button class="ql-italic"></button>
+                                    <button class="ql-underline"></button>
+                                    <button class="ql-strike"></button>
+                                </span>
+                                <span class="ql-formats">
+                                    <select class="ql-color"></select>
+                                    <select class="ql-background"></select>
+                                </span>
+                                <span class="ql-formats">
+                                    <button class="ql-list" value="ordered"></button>
+                                    <button class="ql-list" value="bullet"></button>
+                                </span>
+                                <span class="ql-formats">
+                                    <button class="ql-link"></button>
+                                </span>
+                            </ToolbarContent>
+                            <EditorContent>
+
+                            </EditorContent>
+                        </BlazoredTextEditor>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group" style="padding-top: 70px;">
                         <InputFile OnChange="HandleImageUpload" accept="image/x-png,image/jpeg" title="Upload jpeg or png image" multiple></InputFile>
                         <div class="row">
                             @if (IsImageUploadProcessStarted)
@@ -97,6 +129,8 @@
     private HotelRoomImageDTO RoomImage { get; set; } = new HotelRoomImageDTO();
     private List<string> DeletedImageNames { get; set; } = new List<string>();
     private bool IsImageUploadProcessStarted { get; set; } = false;
+    private BlazoredTextEditor QuillHtml { get; set; } = new BlazoredTextEditor();
+
     #region Comment
 
     //private async Task SuccessAlert()
@@ -131,10 +165,37 @@
             model = new HotelRoomDTO();
         }
 
+
         //return base.OnInitializedAsync();
 
     }
 
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        //SetHTML();
+        if (!firstRender)
+            return;
+        bool loading = true;
+        while (loading)
+        {
+            try
+            {
+                if (!string.IsNullOrEmpty(model.Details))
+                {
+                    await this.QuillHtml.LoadHTMLContent(model.Details);
+                }
+                loading = false;
+            }
+            catch
+            {
+                await Task.Delay(10);
+                loading = true;
+            }
+        }
+
+
+        //return base.OnAfterRenderAsync(firstRender);
+    }
 
     private async Task HandledHotelRoomUpsert()
 
@@ -153,6 +214,7 @@
             }
             if (model.Id != 0 && Title == "Update")
             {
+                model.Details = await QuillHtml.GetHTML();
                 //Update
                 var updateRoomResult = await HotelRoomRepository.UpdateHotelRoom(model.Id, model);
                 if (model.ImageUrls != null && model.ImageUrls.Any())
@@ -176,16 +238,21 @@
             else
             {
                 //Create
+                model.Details = await QuillHtml.GetHTML();
                 var createRoom = await HotelRoomRepository.CreateHotelRoom(model);
+                //if (createRoom.HotelRoomImages.Any())
+                //{
+                //    await AddHotelRoomImage(createRoom);
+                //}
                 await AddHotelRoomImage(createRoom);
                 await JsRuntime.ToastrSuccess("Hotel Room Created Successfully!");
 
             }
         }
-        catch (Exception e)
+        catch (Exception ex)
         {
             //Log Exception
-            await JsRuntime.ToastrError("Unknown Error is Occurred!");
+            await JsRuntime.ToastrError($"Unknown Error is Occurred!:{ex.Message}");
         }
 
 
@@ -197,6 +264,14 @@
 
     private async Task AddHotelRoomImage(HotelRoomDTO roomDetails)
     {
+        //if (model.ImageUrls.Count> 0 && model.ImageUrls.Any())
+        //{
+        //if (model.ImageUrls.Any())
+        //{
+        if (model.ImageUrls ==null)
+        {
+            model.ImageUrls = new List<string>();
+        }
         foreach (var imageUrl in model.ImageUrls)
         {
             if (model.HotelRoomImages == null || model.HotelRoomImages.Where(x => x.RoomImageUrl == imageUrl).Count() == 0)
@@ -209,7 +284,12 @@
                 };
                 await ImagesRepository.CreateHotelRoomImage(RoomImage);
             }
+            //}
+            //}
         }
+
+
+
     }
 
     private async Task HandleImageUpload(InputFileChangeEventArgs e)
@@ -217,15 +297,16 @@
         IsImageUploadProcessStarted = true;
         try
         {
-            var images = new List<string>();
+            var images = new List<string>
+    ();
             if (e.GetMultipleFiles().Count > 0)
             {
                 foreach (var file in e.GetMultipleFiles())
                 {
                     FileInfo fileInfo = new FileInfo(file.Name);
                     if (fileInfo.Extension.ToLower() == ".jpg" ||
-                        fileInfo.Extension.ToLower() == ".png" ||
-                        fileInfo.Extension.ToLower() == ".jpeg")
+                    fileInfo.Extension.ToLower() == ".png" ||
+                    fileInfo.Extension.ToLower() == ".jpeg")
                     {
                         var uploadedImagePath = await FileUpload.UploadFile(file);
                         images.Add(uploadedImagePath);
@@ -278,7 +359,8 @@
             else
             {
                 //update
-                DeletedImageNames ??= new List<string>();
+                DeletedImageNames ??= new List<string>
+                    ();
                 DeletedImageNames.Add(imageUrl);
             }
             model.ImageUrls.RemoveAt(imageIndex);
@@ -289,6 +371,15 @@
         }
 
     }
+
+    //public void SetHTML()
+    //{
+    //    if (!string.IsNullOrEmpty(model.Details))
+    //    {
+    //        this.QuillHtml.LoadHTMLContent(model.Details);
+    //    }
+    //    StateHasChanged();
+    //}
 }
 
 

@@ -1,3 +1,4 @@
 ﻿<StaticWebAssets Version="1.0">
   <ContentRoot BasePath="/" Path="D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/Blazored.TextEditor" Path="C:\Users\D\.nuget\packages\blazored.texteditor\1.0.8\build\..\staticwebassets\" />
 </StaticWebAssets>
