@@ -122,11 +122,16 @@ using Business.Repository.IRepository;
         model = await HotelRoomRepository.GetAllHotelRooms();
     }
 
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JsRuntime.InvokeVoidAsync("ShowDeleteConfirmationModal");
+    }
 
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime JsRuntime { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IHotelRoomRepository HotelRoomRepository { get; set; }
     }
 }

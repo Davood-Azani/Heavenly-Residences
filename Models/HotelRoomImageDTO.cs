@@ -12,5 +12,6 @@ namespace Models
         public int RoomId { get; set; }
         public string RoomImageUrl { get; set; }
         public bool IsDeleted { get; set; } = false;
+
     }
 }

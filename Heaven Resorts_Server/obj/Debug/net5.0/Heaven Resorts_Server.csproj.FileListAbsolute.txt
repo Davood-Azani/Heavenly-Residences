@@ -111,3 +111,5 @@ D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\bin\Debug\net5.0\Models.d
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\bin\Debug\net5.0\Models.pdb
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\bin\Debug\net5.0\Business.dll
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\bin\Debug\net5.0\Business.pdb
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\obj\Debug\net5.0\RazorDeclaration\Shared\DeleteConfirmation.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\obj\Debug\net5.0\Razor\Shared\DeleteConfirmation.razor.g.cs

@@ -79,7 +79,7 @@ namespace Business.Repository
 
         public async Task<IEnumerable<HotelRoomImageDTO>> GetHotelRoomImages(int roomId)
         {
-            return _mapper.Map<IEnumerable<HotelRoomImage>, IEnumerable<HotelRoomImageDTO>>(
+            return _mapper.Map<IEnumerable<HotelRoomImageDTO>>(
             await _db.HotelRoomImages.Where(x => x.RoomId == roomId && !x.IsDeleted).ToListAsync());
         }
     }

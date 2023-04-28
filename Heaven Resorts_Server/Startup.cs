@@ -14,6 +14,8 @@ using AutoMapper;
 using Business.Repository;
 using Business.Repository.IRepository;
 using DataAccess.Data;
+using Heaven_Resorts_Server.Services;
+using Heaven_Resorts_Server.Services.IService;
 using Microsoft.EntityFrameworkCore;
 
 namespace Heaven_Resorts_Server
@@ -35,6 +37,8 @@ namespace Heaven_Resorts_Server
                 option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<IHotelRoomRepository, HotelRoomRepository>();
+            services.AddScoped<IHotelImagesRepository, HotelImagesRepository>();
+            services.AddScoped<IFileUpload, FileUpload>();
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();

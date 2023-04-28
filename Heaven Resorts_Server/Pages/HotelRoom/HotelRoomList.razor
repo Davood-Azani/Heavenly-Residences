@@ -2,7 +2,7 @@
 @using Models
 @using Business.Repository.IRepository
 @inject IHotelRoomRepository HotelRoomRepository
-
+@inject IJSRuntime JsRuntime
 
 <div class="row mt-4">
     <div class="col-8">
@@ -55,7 +55,7 @@
         </table>
     </div>
 </div>
-
+<DeleteConfirmation ></DeleteConfirmation>
 
 @code {
 
@@ -66,6 +66,10 @@
         model = await HotelRoomRepository.GetAllHotelRooms();
     }
 
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JsRuntime.InvokeVoidAsync("ShowDeleteConfirmationModal");
+    }
 
 }
 

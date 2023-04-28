@@ -110,7 +110,7 @@ namespace Business.Repository
             try
             {
                 var mappedModel =
-                    _mapper.Map<IEnumerable<HotelRoomDTO>>(_db.HotelRooms.Where(a => !a.IsDeleted));
+                    _mapper.Map<IEnumerable<HotelRoomDTO>>(_db.HotelRooms.Include(a=>a.HotelRoomImages.Where(a=>!a.IsDeleted)).Where(a => !a.IsDeleted));
                 return mappedModel;
             }
             catch (Exception e)
@@ -127,7 +127,7 @@ namespace Business.Repository
                 if (roomId == 0)
                 {
                     var mappedModel =
-                    _mapper.Map<HotelRoomDTO>(await _db.HotelRooms
+                    _mapper.Map<HotelRoomDTO>(await _db.HotelRooms.Include(a=>a.HotelRoomImages.Where(a=>!a.IsDeleted))
                         .FirstOrDefaultAsync(a => !a.IsDeleted && a.Name.ToLower() == name.ToLower()));
 
 
