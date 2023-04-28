@@ -39,6 +39,7 @@ namespace Heaven_Resorts_Server
             services.AddScoped<IHotelRoomRepository, HotelRoomRepository>();
             services.AddScoped<IHotelImagesRepository, HotelImagesRepository>();
             services.AddScoped<IFileUpload, FileUpload>();
+            services.AddHttpContextAccessor();
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();

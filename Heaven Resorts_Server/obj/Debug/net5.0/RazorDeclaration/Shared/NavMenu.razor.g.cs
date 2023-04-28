@@ -104,7 +104,7 @@ using Blazored.TextEditor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Shared\NavMenu.razor"
+#line 43 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

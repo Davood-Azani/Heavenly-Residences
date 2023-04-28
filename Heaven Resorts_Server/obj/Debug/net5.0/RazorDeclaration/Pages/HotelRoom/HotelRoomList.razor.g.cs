@@ -174,8 +174,8 @@ using Heaven_Resorts_Server.Services.IService;
             HotelRoomDTO hotelRoom = await HotelRoomRepository.GetHotelRoom(DeleteRoomId.Value);
             foreach (var image in hotelRoom.HotelRoomImages)
             {
-                x = $"{NavigationManager.BaseUri}RoomImages/";
-                var imageName = image.RoomImageUrl.Replace($"RoomImages/", "");
+               // x = $"{NavigationManager.BaseUri}RoomImages/";
+                var imageName = image.RoomImageUrl.Replace($"{NavigationManager.BaseUri}RoomImages/", "");
 
                 FileUpload.DeleteFile(imageName);
             }

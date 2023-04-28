@@ -115,3 +115,7 @@ D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\obj\Debug\net5.0\Heaven R
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\obj\Debug\net5.0\Heaven Resorts_Server.genruntimeconfig.cache
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\obj\Debug\net5.0\ref\Heaven Resorts_Server.dll
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\bin\Debug\net5.0\libman.json
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\obj\Debug\net5.0\RazorDeclaration\Pages\HotelAmenity\HotelAmenityList.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\obj\Debug\net5.0\RazorDeclaration\Pages\HotelAmenity\HotelAmenityUpsert.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\obj\Debug\net5.0\Razor\Pages\HotelAmenity\HotelAmenityList.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\obj\Debug\net5.0\Razor\Pages\HotelAmenity\HotelAmenityUpsert.razor.g.cs

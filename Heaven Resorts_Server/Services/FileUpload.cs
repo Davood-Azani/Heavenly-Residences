@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Heaven_Resorts_Server.Services.IService;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 
 namespace Heaven_Resorts_Server.Services
@@ -11,12 +12,16 @@ namespace Heaven_Resorts_Server.Services
     public class FileUpload : IFileUpload
     {
         private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly IConfiguration _configuration;
 
-        public FileUpload(IWebHostEnvironment webHostEnvironment, IConfiguration configuration)
+        public FileUpload(IWebHostEnvironment webHostEnvironment, 
+            IConfiguration configuration,
+            IHttpContextAccessor httpContextAccessor)
         {
             _webHostEnvironment = webHostEnvironment;
             _configuration = configuration;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public bool DeleteFile(string fileName)
@@ -58,7 +63,8 @@ namespace Heaven_Resorts_Server.Services
                 {
                     memoryStream.WriteTo(fs);
                 }
-                var url = $"{_configuration.GetValue<string>("ServerUrl")}";
+                //var url = $"{_configuration.GetValue<string>("ServerUrl")}";
+                var url = $"{_httpContextAccessor.HttpContext.Request.Scheme}://{_httpContextAccessor.HttpContext.Request.Host.Value}/";
                 var fullPath = $"{url}RoomImages/{fileName}";
                 return fullPath;
             }
