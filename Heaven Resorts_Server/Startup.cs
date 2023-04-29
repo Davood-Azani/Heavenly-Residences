@@ -13,6 +13,7 @@ using Heaven_Resorts_Server.Services;
 using Heaven_Resorts_Server.Services.IService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using DataAccess.Data.Models;
 
 namespace Heaven_Resorts_Server
 {
@@ -31,7 +32,7 @@ namespace Heaven_Resorts_Server
         {
             services.AddDbContext<ApplicationDbContext>(option =>
                 option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddIdentity<IdentityUser, IdentityRole>()
+            services.AddIdentity<IdentityUser, IdentityRole>() // we dont need to change identity user to application user because here we dont need name for registering
                 .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders()
                 .AddDefaultUI();
 
