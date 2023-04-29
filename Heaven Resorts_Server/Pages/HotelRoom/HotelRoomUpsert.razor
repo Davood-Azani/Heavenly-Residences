@@ -6,13 +6,14 @@
 @using Microsoft.EntityFrameworkCore.Design
 @using System.IO
 @using Business.Repository
+@using Common
 @using Heaven_Resorts_Server.Services.IService
 @inject IHotelRoomRepository HotelRoomRepository
 @inject IHotelImagesRepository ImagesRepository
 @inject NavigationManager NavigationManager
 @inject IJSRuntime JsRuntime
 @inject IFileUpload FileUpload
-
+@attribute [Authorize(Roles = Common.SD.Role_Admin)]
 
 
 
@@ -144,9 +145,16 @@
     //}
 
     #endregion
-
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthenticationState { get; set; }
     protected async override Task OnInitializedAsync()
     {
+        var authenticationState = await AuthenticationState;
+        if (!authenticationState.User.IsInRole(Common.SD.Role_Admin))
+        {
+            var uri = new Uri(NavigationManager.Uri);
+            NavigationManager.NavigateTo($"/identity/account/login?returnUrl={uri.LocalPath}");
+        }
         if (Id != null)
         {
             //Update
@@ -268,7 +276,7 @@
         //{
         //if (model.ImageUrls.Any())
         //{
-        if (model.ImageUrls ==null)
+        if (model.ImageUrls == null)
         {
             model.ImageUrls = new List<string>();
         }
@@ -380,6 +388,9 @@
     //    }
     //    StateHasChanged();
     //}
+
+
+
 }
 
 

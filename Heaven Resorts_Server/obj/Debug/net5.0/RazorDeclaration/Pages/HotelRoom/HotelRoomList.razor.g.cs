@@ -131,6 +131,13 @@ using Heaven_Resorts_Server.Services.IService;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomList.razor"
+           [Authorize(Roles = Common.SD.Role_Admin)]
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Components.RouteAttribute("/hotel-room")]
     public partial class HotelRoomList : global::Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -174,7 +181,7 @@ using Heaven_Resorts_Server.Services.IService;
             HotelRoomDTO hotelRoom = await HotelRoomRepository.GetHotelRoom(DeleteRoomId.Value);
             foreach (var image in hotelRoom.HotelRoomImages)
             {
-               // x = $"{NavigationManager.BaseUri}RoomImages/";
+                // x = $"{NavigationManager.BaseUri}RoomImages/";
                 var imageName = image.RoomImageUrl.Replace($"{NavigationManager.BaseUri}RoomImages/", "");
 
                 FileUpload.DeleteFile(imageName);

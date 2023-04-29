@@ -117,6 +117,13 @@ using Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 9 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
+           [Authorize(Roles = Common.SD.Role_Admin)]
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Components.RouteAttribute("/hotel-amenity/create")]
     [global::Microsoft.AspNetCore.Components.RouteAttribute("/hotel-amenity/edit/{Id:int}")]
     public partial class HotelAmenityUpsert : global::Microsoft.AspNetCore.Components.ComponentBase
@@ -127,7 +134,7 @@ using Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 55 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
+#line 56 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
  
     [Parameter]
     public int? Id { get; set; }

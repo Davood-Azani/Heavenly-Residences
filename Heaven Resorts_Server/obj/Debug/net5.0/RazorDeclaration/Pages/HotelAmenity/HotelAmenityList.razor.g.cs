@@ -117,6 +117,13 @@ using Heaven_Resorts_Server.Helper;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 9 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelAmenity\HotelAmenityList.razor"
+           [Authorize(Roles = Common.SD.Role_Admin)]
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Components.RouteAttribute("/hotel-amenity")]
     public partial class HotelAmenityList : global::Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -126,7 +133,7 @@ using Heaven_Resorts_Server.Helper;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 62 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelAmenity\HotelAmenityList.razor"
+#line 63 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelAmenity\HotelAmenityList.razor"
        
     internal IEnumerable<HotelAmenityDTO> HotelAmenities { get; set; } = new List<HotelAmenityDTO>();
 

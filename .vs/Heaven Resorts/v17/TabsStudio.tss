@@ -2,10 +2,10 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomUpsert.razor</string>
+      <string>D:\Heaven Resorts\Heaven Resorts\DataAccess\Data\ApplicationDbContext.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\_Host.cshtml</string>
+      <string>NuGet: Heaven Resorts_Server</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

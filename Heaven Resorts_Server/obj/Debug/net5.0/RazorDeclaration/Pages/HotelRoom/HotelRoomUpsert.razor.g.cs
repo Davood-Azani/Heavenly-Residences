@@ -140,7 +140,21 @@ using Business.Repository;
 #nullable disable
 #nullable restore
 #line 9 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+using Common;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 10 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
 using Heaven_Resorts_Server.Services.IService;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+           [Authorize(Roles = Common.SD.Role_Admin)]
 
 #line default
 #line hidden
@@ -155,7 +169,7 @@ using Heaven_Resorts_Server.Services.IService;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 121 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 122 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
        
 
     [Parameter]
@@ -182,9 +196,16 @@ using Heaven_Resorts_Server.Services.IService;
     //}
 
     #endregion
-
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthenticationState { get; set; }
     protected async override Task OnInitializedAsync()
     {
+        var authenticationState = await AuthenticationState;
+        if (!authenticationState.User.IsInRole(Common.SD.Role_Admin))
+        {
+            var uri = new Uri(NavigationManager.Uri);
+            NavigationManager.NavigateTo($"/identity/account/login?returnUrl={uri.LocalPath}");
+        }
         if (Id != null)
         {
             //Update
@@ -306,7 +327,7 @@ using Heaven_Resorts_Server.Services.IService;
         //{
         //if (model.ImageUrls.Any())
         //{
-        if (model.ImageUrls ==null)
+        if (model.ImageUrls == null)
         {
             model.ImageUrls = new List<string>();
         }
@@ -418,6 +439,9 @@ using Heaven_Resorts_Server.Services.IService;
     //    }
     //    StateHasChanged();
     //}
+
+
+
 
 #line default
 #line hidden

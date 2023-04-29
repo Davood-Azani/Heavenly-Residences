@@ -1,21 +1,17 @@
 using Heaven_Resorts_Server.Data;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AutoMapper;
 using Business.Repository;
 using Business.Repository.IRepository;
 using DataAccess.Data;
 using Heaven_Resorts_Server.Services;
 using Heaven_Resorts_Server.Services.IService;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Heaven_Resorts_Server
@@ -35,11 +31,17 @@ namespace Heaven_Resorts_Server
         {
             services.AddDbContext<ApplicationDbContext>(option =>
                 option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders()
+                .AddDefaultUI();
+
+
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<IHotelRoomRepository, HotelRoomRepository>();
             services.AddScoped<IAmenityRepository, AmenityRepository>();
             services.AddScoped<IHotelImagesRepository, HotelImagesRepository>();
             services.AddScoped<IFileUpload, FileUpload>();
+            services.AddScoped<IDbInitializer, DbInitializer>();
             services.AddHttpContextAccessor();
             services.AddRazorPages();
             services.AddServerSideBlazor();
@@ -47,7 +49,7 @@ namespace Heaven_Resorts_Server
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,IDbInitializer dbInitializer)
         {
             if (env.IsDevelopment())
             {
@@ -64,9 +66,12 @@ namespace Heaven_Resorts_Server
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
+            app.UseAuthorization();
+            dbInitializer.Initalize();
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapRazorPages();
                 endpoints.MapBlazorHub();
                 endpoints.MapFallbackToPage("/_Host");
             });
