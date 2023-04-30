@@ -5,6 +5,7 @@ D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\Heaven R
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Heaven Resorts_Client.dll
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Heaven Resorts_Client.pdb
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\blazor.webassembly.js
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
@@ -27,6 +28,7 @@ D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
@@ -200,6 +202,9 @@ D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\icudt_EFIGS.dat.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\icudt_no_CJK.dat.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.17.js.gz
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Common.dll.gz
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Models.dll.gz
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.LocalStorage.dll
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
@@ -222,6 +227,7 @@ D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.dll
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Newtonsoft.Json.dll
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipelines.dll
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.CSharp.dll
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll
@@ -395,6 +401,10 @@ D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\icudt_EFIGS.dat
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\icudt_no_CJK.dat
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.17.js
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Common.dll
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Models.dll
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Common.pdb
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Models.pdb
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Heaven Resorts_Client.csproj.AssemblyReference.cache
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Heaven Resorts_Client.GeneratedMSBuildEditorConfig.editorconfig
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Heaven Resorts_Client.AssemblyInfoInputs.cache
@@ -405,7 +415,10 @@ D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Heaven R
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\RazorDeclaration\Pages\HotelRooms\HotelRooms.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\RazorDeclaration\Pages\HotelRooms\RoomDetails.razor.g.cs
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\RazorDeclaration\Pages\Stripe\Success_Payment.razor.g.cs
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
@@ -418,11 +431,15 @@ D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Heaven R
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\App.razor.g.cs
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\Pages\HotelRooms\HotelRooms.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\Pages\HotelRooms\RoomDetails.razor.g.cs
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\Pages\Stripe\Success_Payment.razor.g.cs
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\+ZZ3cH3D.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\QgIflAjn.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\aMi+dVjR.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\0SfAzKe+.gz
@@ -445,6 +462,7 @@ D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\X1im7pF2.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\AnCCuBs+.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\GdyCQ+3t.gz
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\h9aUmF4J.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\7HPE82zu.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\ReZcyGOj.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\gow96Ahf.gz
@@ -618,6 +636,8 @@ D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\nXQUGyjF.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\LRMbZZcN.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\UUWDvaAJ.gz
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\k5Hd+JRU.gz
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\ZEu69X42.gz
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\scopedcss\bundle\Heaven Resorts_Client.styles.css

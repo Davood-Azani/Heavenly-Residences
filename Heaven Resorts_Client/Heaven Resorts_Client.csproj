@@ -5,9 +5,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\images\ajax-loader.gif" />
+    <None Include="wwwroot\images\confirmation.jpg" />
+    <None Include="wwwroot\images\loader.gif" />
+    <None Include="wwwroot\images\slide1.jpg" />
+    <None Include="wwwroot\images\slide2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blazored.LocalStorage" Version="3.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.17" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.17" PrivateAssets="all" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Models\Models.csproj" />
   </ItemGroup>
 
 </Project>

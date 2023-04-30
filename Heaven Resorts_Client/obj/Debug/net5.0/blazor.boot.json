@@ -1,12 +1,15 @@
 {
   "cacheBootResources": true,
-  "config": [ ],
+  "config": [
+    "appsettings.json"
+  ],
   "debugBuild": true,
   "entryAssembly": "Heaven Resorts_Client",
   "icuDataMode": 0,
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "Blazored.LocalStorage.dll": "sha256-7+FtaZd2xSysaMLC59XhYdtkNMZ15ha0lk73dxPdT5w=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-5QpvlVP++Gkc1dR8QwljPr2My0TdN\/zMkNik9vPVNxk=",
       "Microsoft.AspNetCore.Components.dll": "sha256-lIaWNwfsw4JmImsjOS8Y60om1ZDgL2CTkBB+RmJPCgk=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-RA8PrAgd0Srd27z2Nw+t5X4AGrsOq2zTT9OuXAOuO1Q=",
@@ -29,6 +32,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-f2PgoftqEkKRuuiAk6S1MHygOuqZBHzB0HOB3vR93TU=",
       "Microsoft.JSInterop.dll": "sha256-pr6L2mjcqc8D0q4a8E717JbHBm5iEM4PFAo1DBJmaUg=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-wm\/PyT01CAndytn\/B\/egrjENN3gkDMsMDaFon1TwCHA=",
+      "Newtonsoft.Json.dll": "sha256-gkIipvi93hhq6PE+WvoKU82xCfBcfl2PTHNjD3enxt4=",
       "System.IO.Pipelines.dll": "sha256-\/C5xhI+m3Aqrcjxy\/TauLyqv\/\/5l8WEW3rXFtVlNhy8=",
       "Microsoft.CSharp.dll": "sha256-PpkoBrb5GDDzBCVjEGJ15VkONpHLxk8ZZ3uc0eDYPaY=",
       "Microsoft.VisualBasic.Core.dll": "sha256-SyyaBBG5sBtJEfy89ATtHrxESu8\/SyNLYJXV1OaHYG0=",
@@ -195,13 +199,17 @@
       "mscorlib.dll": "sha256-zMI\/dXK7DoZZ9Qm9U9\/jRN4iQ9Ss3w8\/rwQQxC6SW9Y=",
       "netstandard.dll": "sha256-W3q3PN+lpRB+tRJEIhtMgYOGFv0pauEeeCS9iIRkKAM=",
       "System.Private.CoreLib.dll": "sha256-9rUJv1mXEQdGt\/kWiJ1ITPPzp3cAi3lSmqHVTisp7w0=",
-      "Heaven Resorts_Client.dll": "sha256-6avR7RMlLftbiRnpQpcjHzsykHr9HsHEUXWJk4cniMw="
+      "Common.dll": "sha256-u\/1KVGi5xnulrDA3qzo+ZiAUDdB5xbRpkRdiL9YMMK0=",
+      "Models.dll": "sha256-dOuvxadsSMA4+ZGrHzA5hTiJb1\/5HHDcpRsnIVcaUUM=",
+      "Heaven Resorts_Client.dll": "sha256-K272ndZUSR9jJlDFLyZR5wuRamFtmqOYXT2Uv3dJmCw="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Heaven Resorts_Client.pdb": "sha256-BbbBfTqh+J\/NCFOUnD64Xe4gAVMHS1TT8qXZBKk7NUE="
+      "Common.pdb": "sha256-1UN4siqAW15nzw1tXMBLbkpsvaRJmJYPeMpXLR6ELmc=",
+      "Models.pdb": "sha256-sewvhGrjHB2P9OVigKZX+4GX4HeQw3bXyYE53Vs9S\/Y=",
+      "Heaven Resorts_Client.pdb": "sha256-7JyKEqmKLeV2dR2ucj1mxGBH3gsxrQNr9EsT1FondeI="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-8oJip361m8OrfLRJOuIeswWKaoxtT27\/wINCxhn+s4c=",

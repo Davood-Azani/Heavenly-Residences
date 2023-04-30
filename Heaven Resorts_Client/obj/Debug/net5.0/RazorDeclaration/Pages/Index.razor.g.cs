@@ -82,6 +82,48 @@ using Heaven_Resorts_Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Heaven_Resorts_Client.Helper;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Blazored.LocalStorage;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Common;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Heaven_Resorts_Client.Service.IService;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\Pages\Index.razor"
+using Heaven_Resorts_Client.Model.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\Pages\Index.razor"
+using Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : global::Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -90,6 +132,44 @@ using Heaven_Resorts_Client.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 102 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\Pages\Index.razor"
+      
+
+    public HomeVM HomeModel { get; set; } = new HomeVM();
+    public IEnumerable<HotelAmenityDTO> HotelAmenities { get; set; } = new List<HotelAmenityDTO>();
+    public bool IsProcessing { get; set; } = false;
+    protected override async Task OnInitializedAsync()
+    {
+        IsProcessing = true;
+       // HotelAmenities = await hotelAmenityService.GetHotelAmenities();
+        HotelAmenities =new List<HotelAmenityDTO>();
+        IsProcessing = false;
+    }
+
+
+    private async Task SaveInitialData()
+    {
+        try
+        {
+            HomeModel.EndDate = HomeModel.StartDate.AddDays(HomeModel.NoOfNights);
+
+            await localStorage.SetItemAsync(SD.Local_InitialBooking, HomeModel);
+            navigationManager.NavigateTo("hotel/rooms", true);
+        }
+        catch (Exception e)
+        {
+            await jsRuntime.ToastrError(e.Message);
+        }
+    }
+
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ILocalStorageService localStorage { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime jsRuntime { get; set; }
     }
 }
 #pragma warning restore 1591

@@ -82,6 +82,48 @@ using Heaven_Resorts_Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Heaven_Resorts_Client.Helper;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Blazored.LocalStorage;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Common;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Heaven_Resorts_Client.Model.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Heaven_Resorts_Client.Service.IService;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
     public partial class FetchData : global::Microsoft.AspNetCore.Components.ComponentBase
     {

@@ -9,6 +9,7 @@
       "Business/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
+          "Common": "1.0.0",
           "DataAccess": "1.0.0",
           "Models": "1.0.0"
         },
@@ -1095,6 +1096,11 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Common/1.0.0": {
+        "runtime": {
+          "Common.dll": {}
+        }
+      },
       "DataAccess/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
@@ -1816,6 +1822,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DataAccess/1.0.0": {
       "type": "project",

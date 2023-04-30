@@ -17,6 +17,7 @@ using Heaven_Resorts_Api.Helper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json.Serialization;
+using Stripe;
 
 
 namespace Heaven_Resorts_Api
@@ -42,6 +43,7 @@ namespace Heaven_Resorts_Api
             services.AddScoped<IHotelRoomRepository, HotelRoomRepository>();
             services.AddScoped<IAmenityRepository, AmenityRepository>();
             services.AddScoped<IHotelImagesRepository, HotelImagesRepository>();
+            services.AddScoped<IRoomOrderDetailsRepository, RoomOrderDetailsRepository>();
 
             var appSettingsSection = Configuration.GetSection("APISettings");
             services.Configure<APISettings>(appSettingsSection);
@@ -121,6 +123,7 @@ namespace Heaven_Resorts_Api
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            StripeConfiguration.ApiKey = Configuration.GetSection("Stripe")["ApiKey"];
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

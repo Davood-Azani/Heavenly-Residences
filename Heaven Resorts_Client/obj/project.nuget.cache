@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YwDCUQNqKawRwVI0WH7/TnWt3eeWxKTj4ZwyzzcbKAus/Zx962QN5iGsK7qAVgz7c6w7DeUrhdBYBYJUZnhk4g==",
+  "dgSpecHash": "d5VImPdhnoDPWilAMLuSVMKbSdKOVtMzIcfIB/5ssjgdHvf6Db5a5ZaYUWjXZHT2wKVA7f6NZbduuqOyofl9DQ==",
   "success": true,
   "projectFilePath": "D:\\Heaven Resorts\\Heaven Resorts\\Heaven Resorts_Client\\Heaven Resorts_Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\D\\.nuget\\packages\\blazored.localstorage\\3.0.0\\blazored.localstorage.3.0.0.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.17\\microsoft.aspnetcore.authorization.5.0.17.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.17\\microsoft.aspnetcore.components.5.0.17.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\5.0.17\\microsoft.aspnetcore.components.analyzers.5.0.17.nupkg.sha512",
@@ -28,6 +29,7 @@
     "C:\\Users\\D\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\microsoft.jsinterop\\5.0.17\\microsoft.jsinterop.5.0.17.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.17\\microsoft.jsinterop.webassembly.5.0.17.nupkg.sha512",
+    "C:\\Users\\D\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.17\\microsoft.netcore.app.runtime.browser-wasm.5.0.17.nupkg.sha512"

@@ -34,6 +34,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\Heaven Resorts\\Heaven Resorts\\Common\\Common.csproj": {
+                "projectPath": "D:\\Heaven Resorts\\Heaven Resorts\\Common\\Common.csproj"
+              },
               "D:\\Heaven Resorts\\Heaven Resorts\\DataAccess\\DataAccess.csproj": {
                 "projectPath": "D:\\Heaven Resorts\\Heaven Resorts\\DataAccess\\DataAccess.csproj"
               },

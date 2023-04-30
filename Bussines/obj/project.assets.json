@@ -1808,6 +1808,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
       "DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -6172,6 +6182,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
+    },
     "DataAccess/1.0.0": {
       "type": "project",
       "path": "../DataAccess/DataAccess.csproj",
@@ -6186,6 +6201,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper >= 10.1.1",
+      "Common >= 1.0.0",
       "DataAccess >= 1.0.0",
       "Models >= 1.0.0"
     ]
@@ -6225,6 +6241,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\Heaven Resorts\\Heaven Resorts\\Common\\Common.csproj": {
+              "projectPath": "D:\\Heaven Resorts\\Heaven Resorts\\Common\\Common.csproj"
+            },
             "D:\\Heaven Resorts\\Heaven Resorts\\DataAccess\\DataAccess.csproj": {
               "projectPath": "D:\\Heaven Resorts\\Heaven Resorts\\DataAccess\\DataAccess.csproj"
             },
