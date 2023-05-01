@@ -41,6 +41,7 @@ namespace Heaven_Resorts_Server
             services.AddScoped<IHotelRoomRepository, HotelRoomRepository>();
             services.AddScoped<IAmenityRepository, AmenityRepository>();
             services.AddScoped<IHotelImagesRepository, HotelImagesRepository>();
+            services.AddScoped<IRoomOrderDetailsRepository, RoomOrderDetailsRepository>();
             services.AddScoped<IFileUpload, FileUpload>();
             services.AddScoped<IDbInitializer, DbInitializer>();
             services.AddHttpContextAccessor();

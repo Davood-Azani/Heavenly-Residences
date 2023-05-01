@@ -313,6 +313,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[2.18.2, )"
             }
           },
           "imports": [

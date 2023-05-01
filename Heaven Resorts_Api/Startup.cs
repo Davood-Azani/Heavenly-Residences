@@ -40,14 +40,18 @@ namespace Heaven_Resorts_Api
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders()
                ;
-           services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
             services.AddScoped<IHotelRoomRepository, HotelRoomRepository>();
             services.AddScoped<IAmenityRepository, AmenityRepository>();
             services.AddScoped<IHotelImagesRepository, HotelImagesRepository>();
             services.AddScoped<IRoomOrderDetailsRepository, RoomOrderDetailsRepository>();
+
             services.AddScoped<IEmailSender, EmailSender>();
+
             var appSettingsSection = Configuration.GetSection("APISettings");
             services.Configure<APISettings>(appSettingsSection);
+            services.Configure<MailJetSettings>(Configuration.GetSection("MailJetSettings"));
 
 
 
@@ -88,7 +92,7 @@ namespace Heaven_Resorts_Api
 
             // services.AddScoped<IFileUpload, FileUpload>();
             services.AddRouting(option => option.LowercaseUrls = true);
-           
+
             services.AddControllers().AddJsonOptions(opt => opt.JsonSerializerOptions.PropertyNamingPolicy = null)
                 .AddNewtonsoftJson(opt =>
                 {

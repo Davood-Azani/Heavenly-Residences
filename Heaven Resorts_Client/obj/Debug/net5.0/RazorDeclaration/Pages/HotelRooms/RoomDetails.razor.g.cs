@@ -132,6 +132,13 @@ using Microsoft.AspNetCore.Components.Authorization;
 #line hidden
 #nullable disable
 #nullable restore
+#line 18 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Heaven_Resorts_Client.Pages.Authentication;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 7 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\Pages\HotelRooms\RoomDetails.razor"
 using Microsoft.AspNetCore.Authorization;
 

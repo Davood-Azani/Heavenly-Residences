@@ -128,6 +128,13 @@ using Microsoft.AspNetCore.Components.Authorization;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 18 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Heaven_Resorts_Client.Pages.Authentication;
+
+#line default
+#line hidden
+#nullable disable
     public partial class RedirectToLogin : global::Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

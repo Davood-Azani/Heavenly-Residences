@@ -202,7 +202,7 @@
       "System.Private.CoreLib.dll": "sha256-9rUJv1mXEQdGt\/kWiJ1ITPPzp3cAi3lSmqHVTisp7w0=",
       "Common.dll": "sha256-u\/1KVGi5xnulrDA3qzo+ZiAUDdB5xbRpkRdiL9YMMK0=",
       "Models.dll": "sha256-dOuvxadsSMA4+ZGrHzA5hTiJb1\/5HHDcpRsnIVcaUUM=",
-      "Heaven Resorts_Client.dll": "sha256-ZcxmIR7qHwpilVslR5Misl9JSSL8qdCrcUipndZb0Ik="
+      "Heaven Resorts_Client.dll": "sha256-QPlKb0f5amoiFEJQp1zUW8ZGUPbxCnjpIPD3G6\/WqWA="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -210,7 +210,7 @@
     "pdb": {
       "Common.pdb": "sha256-1UN4siqAW15nzw1tXMBLbkpsvaRJmJYPeMpXLR6ELmc=",
       "Models.pdb": "sha256-sewvhGrjHB2P9OVigKZX+4GX4HeQw3bXyYE53Vs9S\/Y=",
-      "Heaven Resorts_Client.pdb": "sha256-wtfH\/9E6hYA6oZFkUgw5iJ1O1cNKDAjVJ2uRrCC9Y2s="
+      "Heaven Resorts_Client.pdb": "sha256-R4Xv705a+t9nW8MbxROjvP6jIp8d+AzWEMI5SJkJjfk="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-8oJip361m8OrfLRJOuIeswWKaoxtT27\/wINCxhn+s4c=",

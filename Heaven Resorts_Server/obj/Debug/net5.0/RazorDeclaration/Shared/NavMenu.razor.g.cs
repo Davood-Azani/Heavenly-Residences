@@ -96,6 +96,13 @@ using Blazored.TextEditor;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 13 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : global::Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -104,7 +111,7 @@ using Blazored.TextEditor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 43 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Shared\NavMenu.razor"
+#line 48 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

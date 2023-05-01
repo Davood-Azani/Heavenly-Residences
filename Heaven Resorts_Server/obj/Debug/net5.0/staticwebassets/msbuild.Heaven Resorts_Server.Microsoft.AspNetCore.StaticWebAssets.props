@@ -496,22 +496,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\lib\quill\quill.min.js.map))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\RoomImages\15217217-ed4c-4fd4-bd7e-5aa7ac6c624d.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>Heaven Resorts_Server</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Heaven Resorts_Server</BasePath>
-      <RelativePath>RoomImages\15217217-ed4c-4fd4-bd7e-5aa7ac6c624d.jpg</RelativePath>
-      <AssetKind></AssetKind>
-      <AssetMode></AssetMode>
-      <AssetRole></AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\RoomImages\15217217-ed4c-4fd4-bd7e-5aa7ac6c624d.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\RoomImages\5cd98715-fff5-4f4b-8ee7-2f0282984715.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Heaven Resorts_Server</SourceId>
@@ -527,6 +511,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\RoomImages\5cd98715-fff5-4f4b-8ee7-2f0282984715.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\RoomImages\7958e511-f376-413c-a966-2a865e55e4a1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Heaven Resorts_Server</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Heaven Resorts_Server</BasePath>
+      <RelativePath>RoomImages\7958e511-f376-413c-a966-2a865e55e4a1.jpg</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\RoomImages\7958e511-f376-413c-a966-2a865e55e4a1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\RoomImages\7b889c5d-56b9-4f41-9e16-b35a3ae0d555.jpg))">
       <SourceType>Package</SourceType>
