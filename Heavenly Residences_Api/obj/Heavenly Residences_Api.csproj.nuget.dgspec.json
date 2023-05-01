@@ -279,6 +279,10 @@
               "target": "Package",
               "version": "[8.1.0, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Mailjet.Api": {
               "target": "Package",
               "version": "[1.2.3, )"
@@ -300,6 +304,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             },
             "Stripe.net": {
               "target": "Package",

@@ -1,37 +1,37 @@
-.navbar-toggler[b-hgpd15lpvh] {
+.navbar-toggler[b-bvrkfrjm2h] {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.top-row[b-hgpd15lpvh] {
+.top-row[b-bvrkfrjm2h] {
     height: 3.5rem;
     background-color: rgba(0,0,0,0.4);
 }
 
-.navbar-brand[b-hgpd15lpvh] {
+.navbar-brand[b-bvrkfrjm2h] {
     font-size: 1.1rem;
 }
 
-.oi[b-hgpd15lpvh] {
+.oi[b-bvrkfrjm2h] {
     width: 2rem;
     font-size: 1.1rem;
     vertical-align: text-top;
     top: -2px;
 }
 
-.nav-item[b-hgpd15lpvh] {
+.nav-item[b-bvrkfrjm2h] {
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
 }
 
-    .nav-item:first-of-type[b-hgpd15lpvh] {
+    .nav-item:first-of-type[b-bvrkfrjm2h] {
         padding-top: 1rem;
     }
 
-    .nav-item:last-of-type[b-hgpd15lpvh] {
+    .nav-item:last-of-type[b-bvrkfrjm2h] {
         padding-bottom: 1rem;
     }
 
-    .nav-item[b-hgpd15lpvh]  a {
+    .nav-item[b-bvrkfrjm2h]  a {
         color: #d7d7d7;
         border-radius: 4px;
         height: 3rem;
@@ -40,22 +40,22 @@
         line-height: 3rem;
     }
 
-.nav-item[b-hgpd15lpvh]  a.active {
+.nav-item[b-bvrkfrjm2h]  a.active {
     background-color: rgba(255,255,255,0.25);
     color: white;
 }
 
-.nav-item[b-hgpd15lpvh]  a:hover {
+.nav-item[b-bvrkfrjm2h]  a:hover {
     background-color: rgba(255,255,255,0.1);
     color: white;
 }
 
 @media (min-width: 641px) {
-    .navbar-toggler[b-hgpd15lpvh] {
+    .navbar-toggler[b-bvrkfrjm2h] {
         display: none;
     }
 
-    .collapse[b-hgpd15lpvh] {
+    .collapse[b-bvrkfrjm2h] {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }

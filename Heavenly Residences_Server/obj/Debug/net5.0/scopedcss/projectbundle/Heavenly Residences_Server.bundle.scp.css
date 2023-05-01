@@ -1,21 +1,21 @@
 @import '';
 
 /* _content/Heavenly Residences_Server/Shared/MainLayout.razor.rz.scp.css */
-.page[b-ubvdwnclvp] {
+.page[b-zrxejq7mfw] {
     position: relative;
     display: flex;
     flex-direction: column;
 }
 
-.main[b-ubvdwnclvp] {
+.main[b-zrxejq7mfw] {
     flex: 1;
 }
 
-.sidebar[b-ubvdwnclvp] {
+.sidebar[b-zrxejq7mfw] {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
 }
 
-.top-row[b-ubvdwnclvp] {
+.top-row[b-zrxejq7mfw] {
     background-color: #f7f7f7;
     border-bottom: 1px solid #d6d5d5;
     justify-content: flex-end;
@@ -24,88 +24,88 @@
     align-items: center;
 }
 
-    .top-row[b-ubvdwnclvp]  a, .top-row .btn-link[b-ubvdwnclvp] {
+    .top-row[b-zrxejq7mfw]  a, .top-row .btn-link[b-zrxejq7mfw] {
         white-space: nowrap;
         margin-left: 1.5rem;
     }
 
-    .top-row a:first-child[b-ubvdwnclvp] {
+    .top-row a:first-child[b-zrxejq7mfw] {
         overflow: hidden;
         text-overflow: ellipsis;
     }
 
 @media (max-width: 640.98px) {
-    .top-row:not(.auth)[b-ubvdwnclvp] {
+    .top-row:not(.auth)[b-zrxejq7mfw] {
         display: none;
     }
 
-    .top-row.auth[b-ubvdwnclvp] {
+    .top-row.auth[b-zrxejq7mfw] {
         justify-content: space-between;
     }
 
-    .top-row a[b-ubvdwnclvp], .top-row .btn-link[b-ubvdwnclvp] {
+    .top-row a[b-zrxejq7mfw], .top-row .btn-link[b-zrxejq7mfw] {
         margin-left: 0;
     }
 }
 
 @media (min-width: 641px) {
-    .page[b-ubvdwnclvp] {
+    .page[b-zrxejq7mfw] {
         flex-direction: row;
     }
 
-    .sidebar[b-ubvdwnclvp] {
+    .sidebar[b-zrxejq7mfw] {
         width: 250px;
         height: 100vh;
         position: sticky;
         top: 0;
     }
 
-    .top-row[b-ubvdwnclvp] {
+    .top-row[b-zrxejq7mfw] {
         position: sticky;
         top: 0;
         z-index: 1;
     }
 
-    .main > div[b-ubvdwnclvp] {
+    .main > div[b-zrxejq7mfw] {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
 }
 /* _content/Heavenly Residences_Server/Shared/NavMenu.razor.rz.scp.css */
-.navbar-toggler[b-12k07bp7bk] {
+.navbar-toggler[b-bweuta0y3q] {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.top-row[b-12k07bp7bk] {
+.top-row[b-bweuta0y3q] {
     height: 3.5rem;
     background-color: rgba(0,0,0,0.4);
 }
 
-.navbar-brand[b-12k07bp7bk] {
+.navbar-brand[b-bweuta0y3q] {
     font-size: 1.1rem;
 }
 
-.oi[b-12k07bp7bk] {
+.oi[b-bweuta0y3q] {
     width: 2rem;
     font-size: 1.1rem;
     vertical-align: text-top;
     top: -2px;
 }
 
-.nav-item[b-12k07bp7bk] {
+.nav-item[b-bweuta0y3q] {
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
 }
 
-    .nav-item:first-of-type[b-12k07bp7bk] {
+    .nav-item:first-of-type[b-bweuta0y3q] {
         padding-top: 1rem;
     }
 
-    .nav-item:last-of-type[b-12k07bp7bk] {
+    .nav-item:last-of-type[b-bweuta0y3q] {
         padding-bottom: 1rem;
     }
 
-    .nav-item[b-12k07bp7bk]  a {
+    .nav-item[b-bweuta0y3q]  a {
         color: #d7d7d7;
         border-radius: 4px;
         height: 3rem;
@@ -114,22 +114,22 @@
         line-height: 3rem;
     }
 
-.nav-item[b-12k07bp7bk]  a.active {
+.nav-item[b-bweuta0y3q]  a.active {
     background-color: rgba(255,255,255,0.25);
     color: white;
 }
 
-.nav-item[b-12k07bp7bk]  a:hover {
+.nav-item[b-bweuta0y3q]  a:hover {
     background-color: rgba(255,255,255,0.1);
     color: white;
 }
 
 @media (min-width: 641px) {
-    .navbar-toggler[b-12k07bp7bk] {
+    .navbar-toggler[b-bweuta0y3q] {
         display: none;
     }
 
-    .collapse[b-12k07bp7bk] {
+    .collapse[b-bweuta0y3q] {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }

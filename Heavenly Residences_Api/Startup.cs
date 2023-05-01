@@ -52,6 +52,7 @@ namespace Heavenly_Residences_Api
             var appSettingsSection = Configuration.GetSection("APISettings");
             services.Configure<APISettings>(appSettingsSection);
             services.Configure<MailJetSettings>(Configuration.GetSection("MailJetSettings"));
+            services.Configure<GmailSettings>(Configuration.GetSection("GMailSmtSettings"));
 
 
 

@@ -13,119 +13,119 @@ namespace Heavenly_Residences_Server.Pages.HotelAmenity
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\_Imports.razor"
+#line 1 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\_Imports.razor"
+#line 2 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\_Imports.razor"
+#line 3 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\_Imports.razor"
+#line 4 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\_Imports.razor"
+#line 5 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\_Imports.razor"
+#line 6 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\_Imports.razor"
+#line 7 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\_Imports.razor"
+#line 8 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\_Imports.razor"
+#line 9 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Heavenly_Residences_Server;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\_Imports.razor"
+#line 10 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Heavenly_Residences_Server.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\_Imports.razor"
+#line 11 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Heavenly_Residences_Server.Pages.MyComponent;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\_Imports.razor"
+#line 12 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Blazored.TextEditor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\_Imports.razor"
+#line 13 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Radzen.Blazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
+#line 3 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
 using Business.Repository.IRepository;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
+#line 4 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
 using Heavenly_Residences_Server.Helper;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
+#line 5 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
 using Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
+#line 9 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
            [Authorize(Roles = Common.SD.Role_Admin)]
 
 #line default
@@ -141,7 +141,7 @@ using Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 56 "D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
+#line 56 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
  
     [Parameter]
     public int? Id { get; set; }

@@ -4,12 +4,14 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
+using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 using Common;
 using DataAccess.Data.Models;
 using Heavenly_Residences_Api.Helper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -26,14 +28,16 @@ namespace Heavenly_Residences_Api.Controllers
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IEmailSender _emailSender;
         private readonly APISettings _aPISettings;
 
         public AccountController(SignInManager<ApplicationUser> signInManager,
             UserManager<ApplicationUser> userManager,
             RoleManager<IdentityRole> roleManager,
-            IOptions<APISettings> options)
+            IOptions<APISettings> options,IEmailSender emailSender)
         {
             _roleManager = roleManager;
+            _emailSender = emailSender;
             _userManager = userManager;
             _signInManager = signInManager;
             _aPISettings = options.Value;
@@ -72,6 +76,11 @@ namespace Heavenly_Residences_Api.Controllers
                 return BadRequest(new RegisterationResponseDTO
                 { Errors = errors, IsRegisterationSuccessful = false });
             }
+
+            await _emailSender.SendEmailAsync(
+                user.Email,
+                "Confirm your email",
+                $"Your Account Was Created Successfuly href='{user.PhoneNumber}'>clicking here</a>.");
             return StatusCode(201);
         }
 

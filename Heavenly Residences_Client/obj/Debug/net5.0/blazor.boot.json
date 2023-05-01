@@ -202,7 +202,7 @@
       "System.Private.CoreLib.dll": "sha256-9rUJv1mXEQdGt\/kWiJ1ITPPzp3cAi3lSmqHVTisp7w0=",
       "Common.dll": "sha256-OGNG8pLuqF0KfCB3mVfEM73edWEeauHVvGL0tl9et4g=",
       "Models.dll": "sha256-fqRJzxD9qz55t9NPgrJXiNNywu6WFDS\/3j8P1+r+EWM=",
-      "Heavenly Residences_Client.dll": "sha256-aMXObHUnguXHj9byf46xQ9Iqqwf4AwgAkxXlt1vqIC0="
+      "Heavenly Residences_Client.dll": "sha256-dWsnW8DBIJSqNYrOAFKXCbpwBTrd7nPg8zLuN5Pvk1U="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -210,7 +210,7 @@
     "pdb": {
       "Common.pdb": "sha256-h3hnM+Fah49G3i3zJ1OQo9F5tWpGYEpX5Hw4+Xnfm8o=",
       "Models.pdb": "sha256-S998xtckMZ\/1bVnynlDg7oSrCmz\/16\/OHzs7keGdzqo=",
-      "Heavenly Residences_Client.pdb": "sha256-ivh4ks5esrdYeXuBUEHwmX+lG9kBWi7uMRxyGb8Xgrw="
+      "Heavenly Residences_Client.pdb": "sha256-dwqtfB6vmfUVDLpO5XrbDg2e5GD6CXC\/0x6peYh9j9k="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-8oJip361m8OrfLRJOuIeswWKaoxtT27\/wINCxhn+s4c=",

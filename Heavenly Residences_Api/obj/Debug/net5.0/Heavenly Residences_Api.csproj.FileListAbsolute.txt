@@ -168,3 +168,12 @@ D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\refint\
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.pdb
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.genruntimeconfig.cache
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\ref\Heavenly Residences_Api.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\MailKit.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\MimeKit.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Formats.Asn1.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll
