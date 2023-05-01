@@ -1,0 +1,53 @@
+﻿@page "/"
+@using Heavenly_Residences_Server.Model
+
+@*<h1>Hello, world!</h1>
+
+    Welcome to your new app.
+
+    <SurveyPrompt Title="How is Blazor working for you?" />*@
+<h1>@room.RoomName</h1>
+<h1>@room.Price</h1>
+<input type="text" value="@room.Price" />
+<input type="text" @bind-value="@room.Price" @bind-value:event="oninput" />
+<hr />
+<input type="checkbox" @bind-value="room.IsActive" @bind-value:event="oninput" checked="@room.IsActive" /> Check Me
+<h3>the Room Is Active @room.IsActive" </h3>
+
+<select @bind="itemvaluestring">
+
+    @foreach (var item in room.RoomProps)
+    {
+        <option value="@item.Value">@item.Name</option>
+    }
+</select>
+<span>You Select :@itemvaluestring</span>
+
+@code{
+
+
+    string itemvaluestring = "";
+
+    BlazorRoom room = new BlazorRoom()
+    {
+
+
+
+        Id = 1,
+        IsActive = true,
+        Price = 46.99,
+        RoomName = "GreateRooom",
+        RoomProps = new List<BlazorRoomProp>()
+{
+            new BlazorRoomProp(){Id = 1,Name = "Item1",Value = "val1"},
+            new BlazorRoomProp(){Id = 2,Name = "Item2",Value = "val2"},
+            new BlazorRoomProp(){Id = 3,Name = "Item3",Value = "val3"},
+
+        }
+
+
+
+
+    };
+
+}

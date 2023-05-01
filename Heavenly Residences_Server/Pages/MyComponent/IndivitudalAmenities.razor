@@ -1,0 +1,25 @@
+﻿@using Heavenly_Residences_Server.Model
+<div>
+    <h1>Amenities</h1>
+    <h3>@Amenity.Id</h3>
+    <h3 @onclick="(args) =>  CheckedAmenitiesTheRoom(args,Amenity.Name)">@Amenity.Name</h3>
+    <h3>@Amenity.Description</h3>
+</div>
+
+
+
+@code
+{
+    [Parameter]
+    public BlazorAmenities Amenity { get; set; }
+
+    
+    [Parameter]
+    public EventCallback<string> onSelectedAmenities { get; set; }
+
+    protected async Task  CheckedAmenitiesTheRoom(MouseEventArgs e,string amenitiy)
+    {
+        await onSelectedAmenities.InvokeAsync((string)amenitiy);
+    }
+
+}

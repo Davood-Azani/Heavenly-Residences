@@ -1,0 +1,170 @@
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\appsettings.Development.json
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\appsettings.json
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Heavenly Residences_Api.StaticWebAssets.xml
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Heavenly Residences_Api.exe
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Heavenly Residences_Api.deps.json
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Heavenly Residences_Api.runtimeconfig.json
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Heavenly Residences_Api.runtimeconfig.dev.json
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Heavenly Residences_Api.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Heavenly Residences_Api.pdb
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\AutoMapper.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Humanizer.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Mailjet.Client.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Stripe.net.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Business.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Common.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\DataAccess.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Models.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Business.pdb
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Common.pdb
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\DataAccess.pdb
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\bin\Debug\net5.0\Models.pdb
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\Heavenly Residences_Api.csproj.AssemblyReference.cache
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\Heavenly Residences_Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\Heavenly Residences_Api.AssemblyInfoInputs.cache
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\Heavenly Residences_Api.AssemblyInfo.cs
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\Heavenly Residences_Api.csproj.CoreCompileInputs.cache
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\Heavenly Residences_Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\Heavenly Residences_Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\scopedcss\bundle\Heavenly Residences_Api.styles.css
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\staticwebassets\Heavenly Residences_Api.StaticWebAssets.Manifest.cache
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\staticwebassets\Heavenly Residences_Api.StaticWebAssets.Pack.cache
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\staticwebassets\msbuild.Heavenly Residences_Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\staticwebassets\msbuild.build.Heavenly Residences_Api.props
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Heavenly Residences_Api.props
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Heavenly Residences_Api.props
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\staticwebassets\Heavenly Residences_Api.StaticWebAssets.xml
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\Heavenly Residences_Api.RazorTargetAssemblyInfo.cache
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\Heavenly Residences_Api.csproj.CopyComplete
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\Heavenly Residences_Api.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\refint\Heavenly Residences_Api.dll
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\Heavenly Residences_Api.pdb
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\Heavenly Residences_Api.genruntimeconfig.cache
+D:\Heaven Resorts\Heavenly Residences\Heaven Resorts_Api\obj\Debug\net5.0\ref\Heavenly Residences_Api.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\appsettings.Development.json
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\appsettings.json
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Heavenly Residences_Api.StaticWebAssets.xml
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Heavenly Residences_Api.exe
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Heavenly Residences_Api.deps.json
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Heavenly Residences_Api.runtimeconfig.json
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Heavenly Residences_Api.runtimeconfig.dev.json
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Heavenly Residences_Api.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Heavenly Residences_Api.pdb
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\AutoMapper.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Humanizer.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Mailjet.Client.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Stripe.net.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Business.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Common.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\DataAccess.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Models.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Business.pdb
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Common.pdb
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\DataAccess.pdb
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Models.pdb
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.csproj.AssemblyReference.cache
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.AssemblyInfoInputs.cache
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.AssemblyInfo.cs
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.csproj.CoreCompileInputs.cache
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\scopedcss\bundle\Heavenly Residences_Api.styles.css
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\staticwebassets\Heavenly Residences_Api.StaticWebAssets.Manifest.cache
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\staticwebassets\Heavenly Residences_Api.StaticWebAssets.Pack.cache
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\staticwebassets\msbuild.Heavenly Residences_Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\staticwebassets\msbuild.build.Heavenly Residences_Api.props
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Heavenly Residences_Api.props
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Heavenly Residences_Api.props
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\staticwebassets\Heavenly Residences_Api.StaticWebAssets.xml
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.RazorTargetAssemblyInfo.cache
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.csproj.CopyComplete
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\refint\Heavenly Residences_Api.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.pdb
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.genruntimeconfig.cache
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\ref\Heavenly Residences_Api.dll
