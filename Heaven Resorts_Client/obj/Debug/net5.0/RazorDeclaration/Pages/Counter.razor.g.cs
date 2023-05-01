@@ -124,6 +124,13 @@ using Heaven_Resorts_Client.Service.IService;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 17 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Microsoft.AspNetCore.Components.Authorization;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : global::Microsoft.AspNetCore.Components.ComponentBase
     {

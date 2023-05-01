@@ -111,6 +111,13 @@ using Heaven_Resorts_Client.Service.IService;
 #line hidden
 #nullable disable
 #nullable restore
+#line 17 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Microsoft.AspNetCore.Components.Authorization;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\Pages\Index.razor"
 using Heaven_Resorts_Client.Model.ViewModel;
 
@@ -133,7 +140,7 @@ using Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 102 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\Pages\Index.razor"
+#line 114 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\Pages\Index.razor"
       
 
     public HomeVM HomeModel { get; set; } = new HomeVM();
@@ -148,7 +155,7 @@ using Models;
 #endif
         IsProcessing = true;
         HotelAmenities = await hotelAmenityService.GetHotelAmenities();
-       
+
         IsProcessing = false;
     }
 

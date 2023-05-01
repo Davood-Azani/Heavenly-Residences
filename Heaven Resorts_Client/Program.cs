@@ -7,6 +7,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Heaven_Resorts_Client.Service;
 using Heaven_Resorts_Client.Service.IService;
+using Microsoft.AspNetCore.Components.Authorization;
 
 namespace Heaven_Resorts_Client
 {
@@ -23,7 +24,9 @@ namespace Heaven_Resorts_Client
             builder.Services.AddScoped<IRoomOrderDetailsService, RoomOrderDetailsService>();
             builder.Services.AddScoped<IStripePaymentService, StripePaymentService>();
             builder.Services.AddScoped<IHotelAmenityService, HotelAmenityService>();
-
+            builder.Services.AddAuthorizationCore();
+            builder.Services.AddScoped<AuthenticationStateProvider, AuthStateProvider>();
+            builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
             await builder.Build().RunAsync();
         }
     }

@@ -655,3 +655,14 @@ D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Heaven R
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\refint\Heaven Resorts_Client.dll
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Heaven Resorts_Client.pdb
 D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\ref\Heaven Resorts_Client.dll
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\build-gz\zqVrO5e0.gz
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\RazorDeclaration\Pages\Authentication\Login.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\RazorDeclaration\Pages\Authentication\Logout.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\RazorDeclaration\Pages\Authentication\RedirectToLogin.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\RazorDeclaration\Pages\Authentication\Register.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\Pages\Authentication\Login.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\Pages\Authentication\Logout.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\Pages\Authentication\RedirectToLogin.razor.g.cs
+D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\obj\Debug\net5.0\Razor\Pages\Authentication\Register.razor.g.cs

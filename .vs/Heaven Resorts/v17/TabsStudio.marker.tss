@@ -1,15 +1,2 @@
 <?xml version="1.0"?>
-<ArrayOfTabHighlightState xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <TabHighlightState>
-    <extensions>
-      <string>Heaven Resorts_Client\Pages\HotelRooms\HotelRooms.razor</string>
-    </extensions>
-    <highlightIndex>1</highlightIndex>
-  </TabHighlightState>
-  <TabHighlightState>
-    <extensions>
-      <string>Heaven Resorts_Client\Pages\HotelRooms\RoomDetails.razor</string>
-    </extensions>
-    <highlightIndex>5</highlightIndex>
-  </TabHighlightState>
-</ArrayOfTabHighlightState>
+<ArrayOfTabHighlightState xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />

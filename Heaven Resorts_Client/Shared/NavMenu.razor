@@ -7,12 +7,12 @@
     <div class="collapse navbar-collapse pr-2" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto"></ul>
         <ul class="my-0 navbar-nav">
-            @*<AuthorizeView>*@
-                @*<Authorized>*@
+            <AuthorizeView>
+                <Authorized>
                     <li class="nav-item p-0">
                         <NavLink class="nav-link" href="#">
                             <span class="p-2">
-                                @*Hello, @context.User.Identity.Name!*@
+                                Hello, @context.User.Identity.Name!
                             </span>
                         </NavLink>
                     </li>
@@ -23,8 +23,8 @@
                             </span>
                         </NavLink>
                     </li>
-                @*</Authorized>
-                <NotAuthorized>*@
+                </Authorized>
+                <NotAuthorized>
                     <li class="nav-item p-0">
                         <NavLink class="nav-link" href="registration">
                             <span class="p-2">
@@ -39,8 +39,8 @@
                             </span>
                         </NavLink>
                     </li>
-                @*</NotAuthorized>
-            </AuthorizeView>*@
+                </NotAuthorized>
+            </AuthorizeView>
 
         </ul>
     </div>

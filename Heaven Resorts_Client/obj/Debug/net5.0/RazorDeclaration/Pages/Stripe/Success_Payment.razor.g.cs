@@ -125,6 +125,13 @@ using Heaven_Resorts_Client.Service.IService;
 #line hidden
 #nullable disable
 #nullable restore
+#line 17 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\_Imports.razor"
+using Microsoft.AspNetCore.Components.Authorization;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 4 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\Pages\Stripe\Success_Payment.razor"
 using Microsoft.AspNetCore.Authorization;
 

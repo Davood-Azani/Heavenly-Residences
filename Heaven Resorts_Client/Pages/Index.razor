@@ -13,6 +13,18 @@
 }
 else
 {
+
+
+    @*<AuthorizeView>
+        <Authorized>
+            <p>Hello @context.User.Identity.Name</p>
+        </Authorized>
+        <NotAuthorized>
+            <p>Not Signed In !</p> /// just for testing authorization
+        </NotAuthorized>
+    </AuthorizeView>*@ 
+
+
     <div class="row p-0 m-0">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -113,7 +125,7 @@ else
 #endif
         IsProcessing = true;
         HotelAmenities = await hotelAmenityService.GetHotelAmenities();
-       
+
         IsProcessing = false;
     }
 
