@@ -235,9 +235,9 @@ using Microsoft.AspNetCore.Authorization;
                 ProductName = HotelBooking.OrderDetails.HotelRoomDTO.Name,
                 ReturnUrl = "/hotel/room-details/" + Id
             };
-
+            await Task.Delay(2000);
             var result = await stripePaymentService.CheckOut(paymentDTO);
-
+            await Task.Delay(2000);
             HotelBooking.OrderDetails.StripeSessionId = result.Data.ToString();
             HotelBooking.OrderDetails.RoomId = HotelBooking.OrderDetails.HotelRoomDTO.Id;
             HotelBooking.OrderDetails.TotalCost = HotelBooking.OrderDetails.HotelRoomDTO.TotalAmount;

@@ -149,7 +149,10 @@ using Microsoft.AspNetCore.Components;
     {
         try
         {
-           // await Task.Delay(5000); for debuging in this cycle
+            // await Task.Delay(5000); for debuging in this cycle
+#if DEBUG
+            await Task.Delay(5000);
+#endif
             if (await localStorage.GetItemAsync<HomeVM>(SD.Local_InitialBooking) != null)
             {
                 HomeModel = await localStorage.GetItemAsync<HomeVM>(SD.Local_InitialBooking);

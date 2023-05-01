@@ -4,7 +4,7 @@
 @inject IJSRuntime jsRuntime
 @inject ILocalStorageService localStorage
 @inject NavigationManager navigationManager
-@*@inject IHotelAmenityService hotelAmenityService*@
+@inject IHotelAmenityService hotelAmenityService
 @if (IsProcessing)
 {
     <div style="position:fixed;top:50%;left:50%;margin-top:-50px;margin-left:-100px;">
@@ -103,12 +103,17 @@ else
 
     public HomeVM HomeModel { get; set; } = new HomeVM();
     public IEnumerable<HotelAmenityDTO> HotelAmenities { get; set; } = new List<HotelAmenityDTO>();
+
     public bool IsProcessing { get; set; } = false;
     protected override async Task OnInitializedAsync()
     {
+        //await Task.Delay(5000);
+#if DEBUG
+        await Task.Delay(5000);
+#endif
         IsProcessing = true;
-       // HotelAmenities = await hotelAmenityService.GetHotelAmenities();
-        HotelAmenities =new List<HotelAmenityDTO>();
+        HotelAmenities = await hotelAmenityService.GetHotelAmenities();
+       
         IsProcessing = false;
     }
 

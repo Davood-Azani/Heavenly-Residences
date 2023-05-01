@@ -40,7 +40,8 @@
                             <td>@room.Occupancy</td>
                             <td>@room.RegularRate</td>
                             <td>@room.SqFt</td>
-                            <td>@room.Details</td>
+                            <td>@((MarkupString)room.Details)</td>
+                          
                             <td>
                                 <NavLink href="@($"/hotel-room/edit/{room.Id}")" class="btn btn-primary">Edit</NavLink>
                                 <button class="btn btn-danger" @onclick="() =>HandleDelete(room.Id) ">Delete</button>

@@ -46,10 +46,10 @@ namespace Heaven_Resorts_Api.Controllers
                 });
             }
 
-          //  var allRooms = await _hotelRoomRepository.GetAllHotelRooms(checkInDate, checkOutDate);
+            var allRooms = await _hotelRoomRepository.GetAllHotelRooms(checkInDate, checkOutDate);
 
-            //return Ok(allRooms);
-            return Ok();
+            return Ok(allRooms);
+          
         }
 
         [HttpGet("{roomId}")]
@@ -89,8 +89,8 @@ namespace Heaven_Resorts_Api.Controllers
                 });
             }
 
-           // var roomDetails = await _hotelRoomRepository.GetHotelRoom(roomId.Value, checkInDate, checkOutDate);
-           var roomDetails = new HotelRoomDTO();
+            var roomDetails = await _hotelRoomRepository.GetHotelRoom(roomId.Value, checkInDate, checkOutDate);
+           
             if (roomDetails == null)
             {
                 return BadRequest(new ErrorModel()
@@ -101,8 +101,8 @@ namespace Heaven_Resorts_Api.Controllers
                 });
             }
 
-           // return Ok(roomDetails);
-            return Ok();
+            return Ok(roomDetails);
+           
 
         }
 

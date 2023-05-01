@@ -2,16 +2,34 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ArrayOfArrayOfString>
     <ArrayOfString>
+      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\Pages\HotelRooms\HotelRooms.razor</string>
+    </ArrayOfString>
+    <ArrayOfString>
       <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\Pages\Index.razor</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Heaven Resorts\Heaven Resorts\Bussines\Repository\HotelRoomRepository.cs</string>
+      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\Service\HotelRoomService.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Heaven Resorts\Heaven Resorts\Bussines\Repository\IRepository\IHotelRoomRepository.cs</string>
+      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Api\Controllers\HotelRoomController.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomList.razor</string>
+      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\Pages\Stripe\Success_Payment.razor</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Api\appsettings.json</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\wwwroot\js\StripePayment.js</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Api\Controllers\StripePaymentController.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Client\Pages\HotelRooms\RoomDetails.razor</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Heaven Resorts\Heaven Resorts\Models\SuccessModel.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

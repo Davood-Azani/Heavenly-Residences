@@ -138,12 +138,17 @@ using Models;
 
     public HomeVM HomeModel { get; set; } = new HomeVM();
     public IEnumerable<HotelAmenityDTO> HotelAmenities { get; set; } = new List<HotelAmenityDTO>();
+
     public bool IsProcessing { get; set; } = false;
     protected override async Task OnInitializedAsync()
     {
+        //await Task.Delay(5000);
+#if DEBUG
+        await Task.Delay(5000);
+#endif
         IsProcessing = true;
-       // HotelAmenities = await hotelAmenityService.GetHotelAmenities();
-        HotelAmenities =new List<HotelAmenityDTO>();
+        HotelAmenities = await hotelAmenityService.GetHotelAmenities();
+       
         IsProcessing = false;
     }
 
@@ -167,6 +172,7 @@ using Models;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IHotelAmenityService hotelAmenityService { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager navigationManager { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private ILocalStorageService localStorage { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime jsRuntime { get; set; }

@@ -147,7 +147,7 @@ using Heaven_Resorts_Server.Services.IService;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 65 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomList.razor"
+#line 66 "D:\Heaven Resorts\Heaven Resorts\Heaven Resorts_Server\Pages\HotelRoom\HotelRoomList.razor"
        
 
     private IEnumerable<HotelRoomDTO> model { get; set; } = new List<HotelRoomDTO>();

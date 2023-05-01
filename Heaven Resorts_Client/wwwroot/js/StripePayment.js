@@ -3,4 +3,4 @@
     stripe.redirectToCheckout({
         sessionId: sessionId
     });
-};
+}; 

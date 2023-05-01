@@ -22,6 +22,7 @@ namespace Heaven_Resorts_Client
             builder.Services.AddScoped<IHotelRoomService, HotelRoomService>();
             builder.Services.AddScoped<IRoomOrderDetailsService, RoomOrderDetailsService>();
             builder.Services.AddScoped<IStripePaymentService, StripePaymentService>();
+            builder.Services.AddScoped<IHotelAmenityService, HotelAmenityService>();
 
             await builder.Build().RunAsync();
         }

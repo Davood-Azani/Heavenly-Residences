@@ -15,6 +15,7 @@ using Business.Repository;
 using DataAccess.Data.Models;
 using Heaven_Resorts_Api.Helper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json.Serialization;
 using Stripe;
@@ -44,7 +45,7 @@ namespace Heaven_Resorts_Api
             services.AddScoped<IAmenityRepository, AmenityRepository>();
             services.AddScoped<IHotelImagesRepository, HotelImagesRepository>();
             services.AddScoped<IRoomOrderDetailsRepository, RoomOrderDetailsRepository>();
-
+            services.AddScoped<IEmailSender, EmailSender>();
             var appSettingsSection = Configuration.GetSection("APISettings");
             services.Configure<APISettings>(appSettingsSection);
 
