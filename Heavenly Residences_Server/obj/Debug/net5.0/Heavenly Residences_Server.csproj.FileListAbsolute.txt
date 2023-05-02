@@ -500,3 +500,4 @@ D:\Projects\Heavenly Residences\Heavenly Residences_Server\obj\Debug\net5.0\refi
 D:\Projects\Heavenly Residences\Heavenly Residences_Server\obj\Debug\net5.0\Heavenly Residences_Server.pdb
 D:\Projects\Heavenly Residences\Heavenly Residences_Server\obj\Debug\net5.0\Heavenly Residences_Server.genruntimeconfig.cache
 D:\Projects\Heavenly Residences\Heavenly Residences_Server\obj\Debug\net5.0\ref\Heavenly Residences_Server.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Server\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs

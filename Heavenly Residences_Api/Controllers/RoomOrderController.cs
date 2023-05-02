@@ -53,8 +53,9 @@ namespace Heavenly_Residences_Api.Controllers
                         ErrorMessage = "Can not mark payment as successful"
                     });
                 }
-                //await _emailSender.SendEmailAsync(details.Email, "Booking Confirmed - Hidden Villa",
-                //    "Your booking has been confirmed at Hidden Villa with order ID :" + details.Id);
+               
+                await _emailSender.SendEmailAsync(details.Email, "Booking Confirmed - Heavenly Residences",
+                    "Your booking has been confirmed at Heavenly Residences with order ID :" + details.Id);
                 return Ok(result);
             }
             else

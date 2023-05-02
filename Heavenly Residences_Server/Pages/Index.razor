@@ -1,12 +1,12 @@
 ﻿@page "/"
 @using Heavenly_Residences_Server.Model
 
-@*<h1>Hello, world!</h1>
+<h1>Hello</h1>
 
-    Welcome to your new app.
+Heavenly Residences Server Management
 
-    <SurveyPrompt Title="How is Blazor working for you?" />*@
-<h1>@room.RoomName</h1>
+    <SurveyPrompt Title="If You are Admin,Please login to Manage!" />
+@*<h1>@room.RoomName</h1>
 <h1>@room.Price</h1>
 <input type="text" value="@room.Price" />
 <input type="text" @bind-value="@room.Price" @bind-value:event="oninput" />
@@ -21,7 +21,7 @@
         <option value="@item.Value">@item.Name</option>
     }
 </select>
-<span>You Select :@itemvaluestring</span>
+<span>You Select :@itemvaluestring</span>*@
 
 @code{
 

@@ -5,7 +5,7 @@
 @inject IRoomOrderDetailsRepository roomOrderDetailReposiory
 @inject IJSRuntime jsRuntime
 @inject NavigationManager navigationManager
-
+@attribute [Authorize(Roles = Common.SD.Role_Admin)]
 
 @if (!IsLoading)
 {

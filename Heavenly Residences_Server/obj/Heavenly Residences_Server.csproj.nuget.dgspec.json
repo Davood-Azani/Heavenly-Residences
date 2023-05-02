@@ -316,7 +316,7 @@
             },
             "Radzen.Blazor": {
               "target": "Package",
-              "version": "[2.18.2, )"
+              "version": "[4.10.1, )"
             }
           },
           "imports": [

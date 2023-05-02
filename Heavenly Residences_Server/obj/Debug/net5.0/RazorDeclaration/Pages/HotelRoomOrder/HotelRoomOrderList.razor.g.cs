@@ -124,6 +124,13 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 8 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoomOrder\HotelRoomOrderList.razor"
+           [Authorize(Roles = Common.SD.Role_Admin)]
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Components.RouteAttribute("/hotel-room-order")]
     public partial class HotelRoomOrderList : global::Microsoft.AspNetCore.Components.ComponentBase
     {

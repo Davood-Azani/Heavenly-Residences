@@ -104,6 +104,13 @@ using Radzen.Blazor;
 #line hidden
 #nullable disable
 #nullable restore
+#line 14 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoomOrder\HotelRoomOrderManagment.razor"
 using Models;
 
@@ -124,6 +131,13 @@ using Common;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoomOrder\HotelRoomOrderManagment.razor"
+           [Authorize(Roles = Common.SD.Role_Admin)]
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Components.RouteAttribute("/hotel-room-order/details/{Id:int}")]
     public partial class HotelRoomOrderManagment : global::Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -133,7 +147,7 @@ using Common;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 183 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoomOrder\HotelRoomOrderManagment.razor"
+#line 184 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoomOrder\HotelRoomOrderManagment.razor"
        
     [Parameter]
     public int Id { get; set; }

@@ -104,6 +104,13 @@ using Radzen.Blazor;
 #line hidden
 #nullable disable
 #nullable restore
+#line 14 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
 using Models;
 
@@ -160,7 +167,14 @@ using Heavenly_Residences_Server.Services.IService;
 #line hidden
 #nullable disable
 #nullable restore
-#line 16 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 11 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+using FileInfo = System.IO.FileInfo;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 17 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
            [Authorize(Roles = Common.SD.Role_Admin)]
 
 #line default
@@ -176,7 +190,7 @@ using Heavenly_Residences_Server.Services.IService;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 122 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 123 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
        
 
     [Parameter]

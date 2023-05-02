@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Models;
@@ -29,15 +30,17 @@ namespace Heavenly_Residences_Api.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IEmailSender _emailSender;
+        private readonly IConfiguration _configuration;
         private readonly APISettings _aPISettings;
 
         public AccountController(SignInManager<ApplicationUser> signInManager,
             UserManager<ApplicationUser> userManager,
             RoleManager<IdentityRole> roleManager,
-            IOptions<APISettings> options,IEmailSender emailSender)
+            IOptions<APISettings> options,IEmailSender emailSender, IConfiguration configuration)
         {
             _roleManager = roleManager;
             _emailSender = emailSender;
+            _configuration = configuration;
             _userManager = userManager;
             _signInManager = signInManager;
             _aPISettings = options.Value;
@@ -76,11 +79,11 @@ namespace Heavenly_Residences_Api.Controllers
                 return BadRequest(new RegisterationResponseDTO
                 { Errors = errors, IsRegisterationSuccessful = false });
             }
-
+            var domain = _configuration.GetValue<string>("HeavenResorts_Client_Url");
             await _emailSender.SendEmailAsync(
                 user.Email,
-                "Confirm your email",
-                $"Your Account Was Created Successfuly href='{user.PhoneNumber}'>clicking here</a>.");
+                "Successfully Registered - Heavenly Residences",
+                $"Your Account Was Created Successfully,<a> href='{domain}/login'>clicking here</a>.");
             return StatusCode(201);
         }
 

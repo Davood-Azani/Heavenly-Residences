@@ -94,8 +94,10 @@ D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Heavenl
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Heavenly Residences_Api.pdb
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\AutoMapper.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Humanizer.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Mailjet.Client.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\MailKit.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
@@ -116,6 +118,7 @@ D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microso
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\MimeKit.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Stripe.net.dll
@@ -123,9 +126,13 @@ D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Swashbu
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Formats.Asn1.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
@@ -137,7 +144,9 @@ D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtime
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Business.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\Common.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\DataAccess.dll
@@ -168,12 +177,3 @@ D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\refint\
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.pdb
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\Heavenly Residences_Api.genruntimeconfig.cache
 D:\Projects\Heavenly Residences\Heavenly Residences_Api\obj\Debug\net5.0\ref\Heavenly Residences_Api.dll
-D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
-D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\MailKit.dll
-D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\MimeKit.dll
-D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Formats.Asn1.dll
-D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
-D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
-D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
-D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
-D:\Projects\Heavenly Residences\Heavenly Residences_Api\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll

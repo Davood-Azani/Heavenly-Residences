@@ -3,6 +3,7 @@
 @using Business.Repository.IRepository
 @inject IRoomOrderDetailsRepository roomOrderDetailsRepository
 @using Common
+@attribute [Authorize(Roles = Common.SD.Role_Admin)]
 <div class="mt-4 px-md-1 mx-md-1">
     @if (IsLoading)
     {
