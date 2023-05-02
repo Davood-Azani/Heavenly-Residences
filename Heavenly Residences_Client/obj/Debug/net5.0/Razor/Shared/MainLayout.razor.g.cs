@@ -135,6 +135,20 @@ using Heavenly_Residences_Client.Pages.Authentication;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 19 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 20 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998

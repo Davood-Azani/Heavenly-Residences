@@ -28,11 +28,14 @@ namespace Heavenly_Residences_Client.Pages.HotelRooms
         public IStripePaymentService stripePaymentService { get; set; }
         [Inject]
         public IRoomOrderDetailsService roomOrderDetailsService { get; set; }
-        
+
+        public string CheckOutBtnTitle { get; set; } = "Processing ...";
+        public bool IsProcessingCheckOut { get; set; } = false;
 
 
         protected override async Task OnInitializedAsync()
         {
+            IsProcessingCheckOut = false;
             try
             {
                // await Task.Delay(5000);
@@ -102,18 +105,22 @@ namespace Heavenly_Residences_Client.Pages.HotelRooms
             {
                 return;
             }
-
+            IsProcessingCheckOut = true;
             try
             {
+                await jsRuntime.ToastrWarn("Please wait!...");
+                await jsRuntime.ToastrSuccess("Please wait!...");
+                
                 var paymentDTO = new StripePaymentDTO()
                 {
                     Amount = Convert.ToInt32(HotelBooking.OrderDetails.HotelRoomDTO.TotalAmount * 100),
                     ProductName = HotelBooking.OrderDetails.HotelRoomDTO.Name,
                     ReturnUrl = "/hotel/room-details/" + Id
                 };
-                await Task.Delay(2000);
+              
+                //await Task.Delay(2000);
                 var result = await stripePaymentService.CheckOut(paymentDTO);
-                await Task.Delay(2000);
+                //await Task.Delay(2000);
                 HotelBooking.OrderDetails.StripeSessionId = result.Data.ToString();
                 HotelBooking.OrderDetails.RoomId = HotelBooking.OrderDetails.HotelRoomDTO.Id;
                 HotelBooking.OrderDetails.TotalCost = HotelBooking.OrderDetails.HotelRoomDTO.TotalAmount;
@@ -121,12 +128,14 @@ namespace Heavenly_Residences_Client.Pages.HotelRooms
                 var roomOrderDetailsSaved = await roomOrderDetailsService.SaveRoomOrderDetails(HotelBooking.OrderDetails);
 
                 await localStorage.SetItemAsync(SD.Local_RoomOrderDetails, roomOrderDetailsSaved);
-
+               
                 await jsRuntime.InvokeVoidAsync("redirectToCheckout", result.Data.ToString());
+                //IsProcessingCheckOut = false;
             }
             catch (Exception e)
             {
                 await jsRuntime.ToastrError(e.Message);
+                IsProcessingCheckOut = false;
             }
 
         }

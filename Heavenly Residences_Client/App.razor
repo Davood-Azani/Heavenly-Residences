@@ -2,7 +2,13 @@
     <Found Context="routeData">
         <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
             <Authorizing>
-                <p>Please wait,we are authorizing the user .</p>
+                <RadzenStack Gap="0" class="rz-py-8 rz-px-12">
+
+                    <RadzenAlert AlertStyle="AlertStyle.Info" ShowIcon="false" Variant="Variant.Flat" Shade="Shade.Lighter">
+                        <p>Please wait,we are authorizing the user .</p>
+                    </RadzenAlert>
+                </RadzenStack>
+              
             </Authorizing>
 
             <NotAuthorized>
@@ -13,7 +19,13 @@
     <NotFound>
         <CascadingAuthenticationState>
             <LayoutView Layout="@typeof(MainLayout)">
-                <p>Sorry, there's nothing at this address.</p>
+                <RadzenStack Gap="0" class="rz-py-8 rz-px-12">
+
+                    <RadzenAlert AlertStyle="AlertStyle.Danger" ShowIcon="false" Variant="Variant.Flat" Shade="Shade.Lighter">
+                        <p>Sorry, there's nothing at this address.</p>
+                    </RadzenAlert>
+                </RadzenStack>
+               
             </LayoutView>
         </CascadingAuthenticationState>
     </NotFound>

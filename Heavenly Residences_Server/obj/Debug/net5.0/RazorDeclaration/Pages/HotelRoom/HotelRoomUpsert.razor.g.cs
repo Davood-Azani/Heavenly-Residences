@@ -241,7 +241,7 @@ using FileInfo = System.IO.FileInfo;
         else
         {
             //Create
-            Title = "Cretae";
+            Title = "Create";
             model = new HotelRoomDTO();
         }
 
@@ -394,6 +394,7 @@ using FileInfo = System.IO.FileInfo;
                     else
                     {
                         await JsRuntime.ToastrError("Please just Select .jpg/.jpeg/.png file only");
+                        IsImageUploadProcessStarted = false;
                         return;
                     }
                 }
@@ -412,6 +413,7 @@ using FileInfo = System.IO.FileInfo;
                 else
                 {
                     await JsRuntime.ToastrError("Image Uploading Failed");
+                    IsImageUploadProcessStarted = false;
                     return;
                 }
             }
@@ -421,6 +423,7 @@ using FileInfo = System.IO.FileInfo;
         {
 
             await JsRuntime.ToastrError(ex.Message);
+            IsImageUploadProcessStarted = false;
 
         }
 

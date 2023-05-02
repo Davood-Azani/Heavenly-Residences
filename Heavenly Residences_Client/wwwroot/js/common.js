@@ -5,4 +5,7 @@
     if (type === "error") {
         toastr.error(message, "Operation Failed", { timeOut: 10000 });
     }
+    if (type === "warning") {
+        toastr.error(message, "Operation Is Processing", { timeOut: 10000 });
+    }
 }

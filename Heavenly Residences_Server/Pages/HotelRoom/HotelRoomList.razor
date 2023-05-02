@@ -40,7 +40,7 @@
                             <td>@room.Occupancy</td>
                             <td>@room.RegularRate</td>
                             <td>@room.SqFt</td>
-                            <td>@((MarkupString)room.Details)</td>
+                            <td>@((MarkupString)$"{room.Details.Substring(0,100)}...")</td>
                           
                             <td>
                                 <NavLink href="@($"/hotel-room/edit/{room.Id}")" class="btn btn-primary">Edit</NavLink>

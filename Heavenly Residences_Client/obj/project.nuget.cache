@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3XH6pEsqmn0H341lOcDfkH4nqpne7leh/zsRxx3FvSVZHpzq9uzzpenoPhC0tNSoY/Myi5XBV1ImywUTl5t/2g==",
+  "dgSpecHash": "qjhKf+JoqZMrgnFBjtccEiNjUkodgLYye6xSL5npFGhcHJ1u1HDjvtDJJU05M6Ef7SZHJiE8wSQm955hPbdLYw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Heavenly Residences\\Heavenly Residences_Client\\Heavenly Residences_Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\D\\.nuget\\packages\\blazored.localstorage\\3.0.0\\blazored.localstorage.3.0.0.nupkg.sha512",
+    "C:\\Users\\D\\.nuget\\packages\\libsassbuilder\\2.0.1\\libsassbuilder.2.0.1.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.17\\microsoft.aspnetcore.authorization.5.0.17.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.17\\microsoft.aspnetcore.components.5.0.17.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\5.0.17\\microsoft.aspnetcore.components.analyzers.5.0.17.nupkg.sha512",
@@ -31,7 +32,9 @@
     "C:\\Users\\D\\.nuget\\packages\\microsoft.jsinterop\\5.0.17\\microsoft.jsinterop.5.0.17.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.17\\microsoft.jsinterop.webassembly.5.0.17.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\D\\.nuget\\packages\\radzen.blazor\\4.10.2\\radzen.blazor.4.10.2.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\D\\.nuget\\packages\\system.linq.dynamic.core\\1.2.22\\system.linq.dynamic.core.1.2.22.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.17\\microsoft.netcore.app.runtime.browser-wasm.5.0.17.nupkg.sha512"
   ],

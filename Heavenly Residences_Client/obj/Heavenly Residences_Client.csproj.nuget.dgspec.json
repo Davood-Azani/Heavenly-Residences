@@ -135,6 +135,10 @@
               "target": "Package",
               "version": "[11.0.2, )"
             },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[4.10.2, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[5.0.0, )"

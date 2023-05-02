@@ -1334,3 +1334,9 @@ D:\Projects\Heavenly Residences\Heavenly Residences_Client\obj\Debug\net5.0\Heav
 D:\Projects\Heavenly Residences\Heavenly Residences_Client\obj\Debug\net5.0\refint\Heavenly Residences_Client.dll
 D:\Projects\Heavenly Residences\Heavenly Residences_Client\obj\Debug\net5.0\Heavenly Residences_Client.pdb
 D:\Projects\Heavenly Residences\Heavenly Residences_Client\obj\Debug\net5.0\ref\Heavenly Residences_Client.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Client\bin\Debug\net5.0\wwwroot\_framework\Radzen.Blazor.dll.gz
+D:\Projects\Heavenly Residences\Heavenly Residences_Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Dynamic.Core.dll.gz
+D:\Projects\Heavenly Residences\Heavenly Residences_Client\bin\Debug\net5.0\wwwroot\_framework\Radzen.Blazor.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Dynamic.Core.dll
+D:\Projects\Heavenly Residences\Heavenly Residences_Client\obj\Debug\net5.0\build-gz\jjEVboEn.gz
+D:\Projects\Heavenly Residences\Heavenly Residences_Client\obj\Debug\net5.0\build-gz\yqPCDnzw.gz

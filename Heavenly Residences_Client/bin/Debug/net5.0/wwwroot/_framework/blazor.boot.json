@@ -34,7 +34,9 @@
       "Microsoft.JSInterop.dll": "sha256-pr6L2mjcqc8D0q4a8E717JbHBm5iEM4PFAo1DBJmaUg=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-wm\/PyT01CAndytn\/B\/egrjENN3gkDMsMDaFon1TwCHA=",
       "Newtonsoft.Json.dll": "sha256-gkIipvi93hhq6PE+WvoKU82xCfBcfl2PTHNjD3enxt4=",
+      "Radzen.Blazor.dll": "sha256-wfwlbmGNmuFzoQje2azO0WB\/QYGsMDU3PLsLeqOmkn0=",
       "System.IO.Pipelines.dll": "sha256-\/C5xhI+m3Aqrcjxy\/TauLyqv\/\/5l8WEW3rXFtVlNhy8=",
+      "System.Linq.Dynamic.Core.dll": "sha256-61yf10xm1mazS+QihHv\/qhgTAXV9TJSYFM9yNt07948=",
       "Microsoft.CSharp.dll": "sha256-PpkoBrb5GDDzBCVjEGJ15VkONpHLxk8ZZ3uc0eDYPaY=",
       "Microsoft.VisualBasic.Core.dll": "sha256-SyyaBBG5sBtJEfy89ATtHrxESu8\/SyNLYJXV1OaHYG0=",
       "Microsoft.VisualBasic.dll": "sha256-r72HitH7Jt\/VQ3irxjaX1qUbLsK06DZxmFGScnqWFcE=",
@@ -202,7 +204,7 @@
       "System.Private.CoreLib.dll": "sha256-9rUJv1mXEQdGt\/kWiJ1ITPPzp3cAi3lSmqHVTisp7w0=",
       "Common.dll": "sha256-OGNG8pLuqF0KfCB3mVfEM73edWEeauHVvGL0tl9et4g=",
       "Models.dll": "sha256-fqRJzxD9qz55t9NPgrJXiNNywu6WFDS\/3j8P1+r+EWM=",
-      "Heavenly Residences_Client.dll": "sha256-dWsnW8DBIJSqNYrOAFKXCbpwBTrd7nPg8zLuN5Pvk1U="
+      "Heavenly Residences_Client.dll": "sha256-AYZFh8T+LrfAOiVsavb8GNIkL502x6OJuyLf7GbrKWI="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -210,7 +212,7 @@
     "pdb": {
       "Common.pdb": "sha256-h3hnM+Fah49G3i3zJ1OQo9F5tWpGYEpX5Hw4+Xnfm8o=",
       "Models.pdb": "sha256-S998xtckMZ\/1bVnynlDg7oSrCmz\/16\/OHzs7keGdzqo=",
-      "Heavenly Residences_Client.pdb": "sha256-dwqtfB6vmfUVDLpO5XrbDg2e5GD6CXC\/0x6peYh9j9k="
+      "Heavenly Residences_Client.pdb": "sha256-GgFd3v8hf3pp4EYfaLLCn6NAI3T\/ypkKO1cBpfjz1lc="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-8oJip361m8OrfLRJOuIeswWKaoxtT27\/wINCxhn+s4c=",

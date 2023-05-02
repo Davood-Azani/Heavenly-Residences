@@ -13,5 +13,9 @@ namespace Heavenly_Residences_Client.Helper
         {
             await JSRuntime.InvokeVoidAsync("ShowToastr", "error", message);
         }
+        public static async ValueTask ToastrWarn(this IJSRuntime JSRuntime, string message)
+        {
+            await JSRuntime.InvokeVoidAsync("ShowToastr", "warning", message);
+        }
     }
 }

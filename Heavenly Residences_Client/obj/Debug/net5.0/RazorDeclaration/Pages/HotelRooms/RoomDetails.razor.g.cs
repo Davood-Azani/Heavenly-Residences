@@ -139,6 +139,20 @@ using Heavenly_Residences_Client.Pages.Authentication;
 #line hidden
 #nullable disable
 #nullable restore
+#line 19 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 20 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 7 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\HotelRooms\RoomDetails.razor"
 using Microsoft.AspNetCore.Authorization;
 
@@ -161,7 +175,7 @@ using Microsoft.AspNetCore.Authorization;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 161 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\HotelRooms\RoomDetails.razor"
+#line 170 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\HotelRooms\RoomDetails.razor"
        
     //[Parameter]
     //public int? Id { get; set; }

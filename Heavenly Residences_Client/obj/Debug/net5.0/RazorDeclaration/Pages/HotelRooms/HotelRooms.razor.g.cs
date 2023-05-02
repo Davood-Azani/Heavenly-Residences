@@ -138,6 +138,20 @@ using Heavenly_Residences_Client.Pages.Authentication;
 #line hidden
 #nullable disable
 #nullable restore
+#line 19 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 20 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\HotelRooms\HotelRooms.razor"
 using Microsoft.AspNetCore.Components;
 

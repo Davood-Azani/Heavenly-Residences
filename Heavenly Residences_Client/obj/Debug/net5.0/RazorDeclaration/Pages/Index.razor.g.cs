@@ -125,6 +125,20 @@ using Heavenly_Residences_Client.Pages.Authentication;
 #line hidden
 #nullable disable
 #nullable restore
+#line 19 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 20 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\Index.razor"
 using Heavenly_Residences_Client.Model.ViewModel;
 
@@ -147,7 +161,7 @@ using Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 114 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\Index.razor"
+#line 118 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\Index.razor"
       
 
     public HomeVM HomeModel { get; set; } = new HomeVM();
