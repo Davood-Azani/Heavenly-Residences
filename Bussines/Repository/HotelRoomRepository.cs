@@ -76,8 +76,9 @@ namespace Business.Repository
             try
             {
                 var mappedModel =
-                    _mapper.Map<HotelRoomDTO>(await _db.HotelRooms.Include(a => a.HotelRoomImages.Where(a => !a.IsDeleted))
-                        .FirstOrDefaultAsync(a => a.Id == roomId && !a.IsDeleted));
+                    _mapper.Map<HotelRoomDTO>(await _db.HotelRooms
+                        .Include(a => a.HotelRoomImages)
+                        .FirstOrDefaultAsync(a => a.Id == roomId));
 
                 if (!string.IsNullOrEmpty(checkInDateStr) && !string.IsNullOrEmpty(checkOutDatestr))
                 {
@@ -105,8 +106,8 @@ namespace Business.Repository
                     hotelroom.IsDeleted = true;
                     //await _db.SaveChangesAsync();
                     var allimages = await _db.HotelRoomImages
-                        .Where(a => a.RoomId == roomId &&
-                                    !a.IsDeleted).ToListAsync();
+                        .Where(a => a.RoomId == roomId 
+                                   ).ToListAsync();
                     if (allimages.Any())
                     {
                         foreach (var image in allimages)
@@ -143,7 +144,7 @@ namespace Business.Repository
                 //return mappedModel;
                 IEnumerable<HotelRoomDTO> hotelRoomDTOs =
                     _mapper.Map<IEnumerable<HotelRoom>, IEnumerable<HotelRoomDTO>>
-                        (_db.HotelRooms.Include(x => x.HotelRoomImages)).Where(a => !a.IsDeleted);
+                        (_db.HotelRooms.Include(x => x.HotelRoomImages));
                 if (!string.IsNullOrEmpty(checkInDate) && !string.IsNullOrEmpty(checkOutDate))
                 {
                     foreach (HotelRoomDTO hotelRoom in hotelRoomDTOs)
@@ -168,8 +169,8 @@ namespace Business.Repository
                 if (roomId == 0)
                 {
                     var mappedModel =
-                    _mapper.Map<HotelRoomDTO>(await _db.HotelRooms.Include(a => a.HotelRoomImages.Where(a => !a.IsDeleted))
-                        .FirstOrDefaultAsync(a => !a.IsDeleted && a.Name.ToLower() == name.ToLower()));
+                    _mapper.Map<HotelRoomDTO>(await _db.HotelRooms.Include(a => a.HotelRoomImages)
+                        .FirstOrDefaultAsync(a =>  a.Name.ToLower() == name.ToLower()));
 
 
                     return mappedModel;
@@ -178,7 +179,7 @@ namespace Business.Repository
                 {
                     var mappedModel =
                         _mapper.Map<HotelRoomDTO>(await _db.HotelRooms
-                            .FirstOrDefaultAsync(a => !a.IsDeleted && a.Name.ToLower() == name.ToLower() && a.Id != roomId));
+                            .FirstOrDefaultAsync(a =>  a.Name.ToLower() == name.ToLower() && a.Id != roomId));
 
 
                     return mappedModel;

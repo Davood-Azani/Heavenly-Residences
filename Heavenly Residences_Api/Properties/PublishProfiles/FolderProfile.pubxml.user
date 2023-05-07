@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\D\Desktop\api</_PublishTargetUrl>
+    <History>True|2023-05-07T07:36:52.4752796Z;True|2023-05-07T10:58:34.0770506+03:30;True|2023-05-07T10:23:53.4861686+03:30;True|2023-05-07T10:19:20.0171707+03:30;True|2023-05-07T09:46:10.8692804+03:30;True|2023-05-07T00:52:07.6141211+03:30;True|2023-05-07T00:15:33.1385771+03:30;True|2023-05-07T00:12:48.1733568+03:30;True|2023-05-05T13:31:56.6596132+03:30;True|2023-05-05T11:34:36.2513099+03:30;True|2023-05-04T23:04:08.7938828+03:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

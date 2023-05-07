@@ -226,7 +226,7 @@
                 model.Details = await QuillHtml.GetHTML();
                 //Update
                 var updateRoomResult = await HotelRoomRepository.UpdateHotelRoom(model.Id, model);
-                if (model.ImageUrls != null && model.ImageUrls.Any())
+                if ((model.ImageUrls != null && model.ImageUrls.Any()) || (DeletedImageNames != null && DeletedImageNames.Any()))
                 {
 
                     if (DeletedImageNames != null && DeletedImageNames.Any())
@@ -267,7 +267,7 @@
 
         //await SuccessAlert();
         //await JsRuntime.ToastrSuccess("Done!");
-        NavigationManager.NavigateTo("hotel-room");
+        NavigationManager.NavigateTo("hotel-room",true);
 
     }
 

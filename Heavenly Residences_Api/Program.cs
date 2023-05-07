@@ -22,5 +22,7 @@ namespace Heavenly_Residences_Api
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
+        
     }
 }

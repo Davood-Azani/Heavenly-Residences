@@ -85,7 +85,7 @@ namespace Heavenly_Residences_Api
 
             #endregion
 
-            services.AddCors(o => o.AddPolicy("HeavenResorts", builder =>
+            services.AddCors(o => o.AddPolicy("HeavenlyResidences", builder =>
             {
                 builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
             }));
@@ -138,7 +138,7 @@ namespace Heavenly_Residences_Api
             }
 
             app.UseHttpsRedirection();
-            app.UseCors("HeavenResorts");
+            app.UseCors("HeavenlyResidences");
 
             app.UseRouting();
 

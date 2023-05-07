@@ -1,0 +1,12 @@
+D:\Projects\Heavenly Residences\Common\bin\Release\net5.0\Common.deps.json
+D:\Projects\Heavenly Residences\Common\bin\Release\net5.0\Common.dll
+D:\Projects\Heavenly Residences\Common\bin\Release\net5.0\Common.pdb
+D:\Projects\Heavenly Residences\Common\obj\Release\net5.0\Common.csproj.AssemblyReference.cache
+D:\Projects\Heavenly Residences\Common\obj\Release\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Heavenly Residences\Common\obj\Release\net5.0\Common.AssemblyInfoInputs.cache
+D:\Projects\Heavenly Residences\Common\obj\Release\net5.0\Common.AssemblyInfo.cs
+D:\Projects\Heavenly Residences\Common\obj\Release\net5.0\Common.csproj.CoreCompileInputs.cache
+D:\Projects\Heavenly Residences\Common\obj\Release\net5.0\Common.dll
+D:\Projects\Heavenly Residences\Common\obj\Release\net5.0\refint\Common.dll
+D:\Projects\Heavenly Residences\Common\obj\Release\net5.0\Common.pdb
+D:\Projects\Heavenly Residences\Common\obj\Release\net5.0\ref\Common.dll
