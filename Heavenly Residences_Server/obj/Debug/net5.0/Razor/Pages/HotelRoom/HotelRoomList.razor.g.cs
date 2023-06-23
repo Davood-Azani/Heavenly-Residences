@@ -161,8 +161,8 @@ using Heavenly_Residences_Server.Services.IService;
             __builder.OpenElement(3, "div");
             __builder.AddAttribute(4, "class", "col-3 offset-1");
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(5);
-            __builder.AddAttribute(6, "href", "hotel-room/create");
-            __builder.AddAttribute(7, "class", "btn btn-info form-control");
+            __builder.AddAttribute(6, "href", (object)("hotel-room/create"));
+            __builder.AddAttribute(7, "class", (object)("btn btn-info form-control"));
             __builder.AddAttribute(8, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
                 __builder2.AddContent(9, "Add New Room");
             }
@@ -270,7 +270,7 @@ __builder.AddContent(39, room.HotelRoomImages.Count());
             __builder.AddMarkupContent(40, "\r\n                          \r\n                            ");
             __builder.OpenElement(41, "td");
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(42);
-            __builder.AddAttribute(43, "href", 
+            __builder.AddAttribute(43, "href", (object)(
 #nullable restore
 #line 50 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomList.razor"
                                                  $"/hotel-room/edit/{room.Id}"
@@ -278,8 +278,8 @@ __builder.AddContent(39, room.HotelRoomImages.Count());
 #line default
 #line hidden
 #nullable disable
-            );
-            __builder.AddAttribute(44, "class", "btn btn-primary");
+            ));
+            __builder.AddAttribute(44, "class", (object)("btn btn-primary"));
             __builder.AddAttribute(45, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
                 __builder2.AddContent(46, "Edit");
             }
@@ -326,7 +326,7 @@ __builder.AddContent(39, room.HotelRoomImages.Count());
             __builder.CloseElement();
             __builder.AddMarkupContent(53, "\r\n");
             __builder.OpenComponent<global::Heavenly_Residences_Server.Shared.DeleteConfirmation>(54);
-            __builder.AddAttribute(55, "ConfirmationChanged", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.Boolean>(this, 
+            __builder.AddAttribute(55, "ConfirmationChanged", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.Boolean>(this, 
 #nullable restore
 #line 68 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomList.razor"
                                          ConfirmDelete_Click
@@ -334,8 +334,8 @@ __builder.AddContent(39, room.HotelRoomImages.Count());
 #line default
 #line hidden
 #nullable disable
-            )));
-            __builder.AddAttribute(56, "IsParentComponentProcessing", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
+            ))));
+            __builder.AddAttribute(56, "IsParentComponentProcessing", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
 #nullable restore
 #line 68 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomList.razor"
                                                                                            IsProcessing
@@ -343,7 +343,7 @@ __builder.AddContent(39, room.HotelRoomImages.Count());
 #line default
 #line hidden
 #nullable disable
-            ));
+            )));
             __builder.CloseComponent();
         }
         #pragma warning restore 1998

@@ -163,7 +163,7 @@ __builder.AddContent(4, Title);
             __builder.OpenElement(11, "div");
             __builder.AddAttribute(12, "class", "card-body");
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.EditForm>(13);
-            __builder.AddAttribute(14, "Model", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Object>(
+            __builder.AddAttribute(14, "Model", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Object>(
 #nullable restore
 #line 18 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
                                   HotelAmenityModel
@@ -171,8 +171,8 @@ __builder.AddContent(4, Title);
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(15, "OnValidSubmit", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Forms.EditContext>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
+            )));
+            __builder.AddAttribute(15, "OnValidSubmit", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Forms.EditContext>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
 #nullable restore
 #line 18 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
                                                                     HandleHotelAmenityCreate
@@ -180,7 +180,7 @@ __builder.AddContent(4, Title);
 #line default
 #line hidden
 #nullable disable
-            )));
+            ))));
             __builder.AddAttribute(16, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Forms.EditContext>)((context) => (__builder2) => {
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator>(17);
                 __builder2.CloseComponent();
@@ -189,8 +189,8 @@ __builder.AddContent(4, Title);
                 __builder2.AddAttribute(20, "class", "form-group");
                 __builder2.AddMarkupContent(21, "<label>Name</label>\n                        ");
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.InputText>(22);
-                __builder2.AddAttribute(23, "class", "form-control");
-                __builder2.AddAttribute(24, "Value", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
+                __builder2.AddAttribute(23, "class", (object)("form-control"));
+                __builder2.AddAttribute(24, "Value", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
 #nullable restore
 #line 23 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
                                                 HotelAmenityModel.Name
@@ -198,9 +198,9 @@ __builder.AddContent(4, Title);
 #line default
 #line hidden
 #nullable disable
-                ));
-                __builder2.AddAttribute(25, "ValueChanged", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => HotelAmenityModel.Name = __value, HotelAmenityModel.Name))));
-                __builder2.AddAttribute(26, "ValueExpression", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => HotelAmenityModel.Name));
+                )));
+                __builder2.AddAttribute(25, "ValueChanged", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => HotelAmenityModel.Name = __value, HotelAmenityModel.Name)))));
+                __builder2.AddAttribute(26, "ValueExpression", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => HotelAmenityModel.Name)));
                 __builder2.CloseComponent();
                 __builder2.AddMarkupContent(27, "\n                        ");
                 global::__Blazor.Heavenly_Residences_Server.Pages.HotelAmenity.HotelAmenityUpsert.TypeInference.CreateValidationMessage_0(__builder2, 28, 29, 
@@ -218,8 +218,8 @@ __builder.AddContent(4, Title);
                 __builder2.AddAttribute(32, "class", "form-group");
                 __builder2.AddMarkupContent(33, "<label>Description</label>\n                        ");
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.InputTextArea>(34);
-                __builder2.AddAttribute(35, "class", "form-control");
-                __builder2.AddAttribute(36, "Value", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
+                __builder2.AddAttribute(35, "class", (object)("form-control"));
+                __builder2.AddAttribute(36, "Value", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
 #nullable restore
 #line 28 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
                                                     HotelAmenityModel.Description
@@ -227,9 +227,9 @@ __builder.AddContent(4, Title);
 #line default
 #line hidden
 #nullable disable
-                ));
-                __builder2.AddAttribute(37, "ValueChanged", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => HotelAmenityModel.Description = __value, HotelAmenityModel.Description))));
-                __builder2.AddAttribute(38, "ValueExpression", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => HotelAmenityModel.Description));
+                )));
+                __builder2.AddAttribute(37, "ValueChanged", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => HotelAmenityModel.Description = __value, HotelAmenityModel.Description)))));
+                __builder2.AddAttribute(38, "ValueExpression", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => HotelAmenityModel.Description)));
                 __builder2.CloseComponent();
                 __builder2.AddMarkupContent(39, "\n                        ");
                 global::__Blazor.Heavenly_Residences_Server.Pages.HotelAmenity.HotelAmenityUpsert.TypeInference.CreateValidationMessage_1(__builder2, 40, 41, 
@@ -247,8 +247,8 @@ __builder.AddContent(4, Title);
                 __builder2.AddAttribute(44, "class", "form-group");
                 __builder2.AddMarkupContent(45, "<label>Timming</label>\n                        ");
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.InputText>(46);
-                __builder2.AddAttribute(47, "class", "form-control");
-                __builder2.AddAttribute(48, "Value", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
+                __builder2.AddAttribute(47, "class", (object)("form-control"));
+                __builder2.AddAttribute(48, "Value", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
 #nullable restore
 #line 33 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
                                                 HotelAmenityModel.Timming
@@ -256,9 +256,9 @@ __builder.AddContent(4, Title);
 #line default
 #line hidden
 #nullable disable
-                ));
-                __builder2.AddAttribute(49, "ValueChanged", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => HotelAmenityModel.Timming = __value, HotelAmenityModel.Timming))));
-                __builder2.AddAttribute(50, "ValueExpression", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => HotelAmenityModel.Timming));
+                )));
+                __builder2.AddAttribute(49, "ValueChanged", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => HotelAmenityModel.Timming = __value, HotelAmenityModel.Timming)))));
+                __builder2.AddAttribute(50, "ValueExpression", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => HotelAmenityModel.Timming)));
                 __builder2.CloseComponent();
                 __builder2.AddMarkupContent(51, "\n                        ");
                 global::__Blazor.Heavenly_Residences_Server.Pages.HotelAmenity.HotelAmenityUpsert.TypeInference.CreateValidationMessage_2(__builder2, 52, 53, 
@@ -276,8 +276,8 @@ __builder.AddContent(4, Title);
                 __builder2.AddAttribute(56, "class", "form-group");
                 __builder2.AddMarkupContent(57, "<label>Icon Style</label>\n                        ");
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.InputText>(58);
-                __builder2.AddAttribute(59, "class", "form-control");
-                __builder2.AddAttribute(60, "Value", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
+                __builder2.AddAttribute(59, "class", (object)("form-control"));
+                __builder2.AddAttribute(60, "Value", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
 #nullable restore
 #line 38 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
                                                 HotelAmenityModel.IconStyle
@@ -285,9 +285,9 @@ __builder.AddContent(4, Title);
 #line default
 #line hidden
 #nullable disable
-                ));
-                __builder2.AddAttribute(61, "ValueChanged", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => HotelAmenityModel.IconStyle = __value, HotelAmenityModel.IconStyle))));
-                __builder2.AddAttribute(62, "ValueExpression", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => HotelAmenityModel.IconStyle));
+                )));
+                __builder2.AddAttribute(61, "ValueChanged", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => HotelAmenityModel.IconStyle = __value, HotelAmenityModel.IconStyle)))));
+                __builder2.AddAttribute(62, "ValueExpression", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => HotelAmenityModel.IconStyle)));
                 __builder2.CloseComponent();
                 __builder2.AddMarkupContent(63, "\n                        ");
                 global::__Blazor.Heavenly_Residences_Server.Pages.HotelAmenity.HotelAmenityUpsert.TypeInference.CreateValidationMessage_3(__builder2, 64, 65, 
@@ -316,7 +316,7 @@ __builder2.AddContent(71, Title);
                 __builder2.CloseElement();
                 __builder2.AddMarkupContent(73, "\n                        ");
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(74);
-                __builder2.AddAttribute(75, "href", 
+                __builder2.AddAttribute(75, "href", (object)(
 #nullable restore
 #line 46 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityUpsert.razor"
                                          $"hotel-amenity"
@@ -324,8 +324,8 @@ __builder2.AddContent(71, Title);
 #line default
 #line hidden
 #nullable disable
-                );
-                __builder2.AddAttribute(76, "class", "btn btn-secondary");
+                ));
+                __builder2.AddAttribute(76, "class", (object)("btn btn-secondary"));
                 __builder2.AddAttribute(77, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder3) => {
                     __builder3.AddContent(78, "Back to Index ");
                 }
@@ -434,25 +434,25 @@ namespace __Blazor.Heavenly_Residences_Server.Pages.HotelAmenity.HotelAmenityUps
         public static void CreateValidationMessage_0<TValue>(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder, int seq, int __seq0, global::System.Linq.Expressions.Expression<global::System.Func<TValue>> __arg0)
         {
         __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>>(seq);
-        __builder.AddAttribute(__seq0, "For", __arg0);
+        __builder.AddAttribute(__seq0, "For", (object)__arg0);
         __builder.CloseComponent();
         }
         public static void CreateValidationMessage_1<TValue>(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder, int seq, int __seq0, global::System.Linq.Expressions.Expression<global::System.Func<TValue>> __arg0)
         {
         __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>>(seq);
-        __builder.AddAttribute(__seq0, "For", __arg0);
+        __builder.AddAttribute(__seq0, "For", (object)__arg0);
         __builder.CloseComponent();
         }
         public static void CreateValidationMessage_2<TValue>(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder, int seq, int __seq0, global::System.Linq.Expressions.Expression<global::System.Func<TValue>> __arg0)
         {
         __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>>(seq);
-        __builder.AddAttribute(__seq0, "For", __arg0);
+        __builder.AddAttribute(__seq0, "For", (object)__arg0);
         __builder.CloseComponent();
         }
         public static void CreateValidationMessage_3<TValue>(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder, int seq, int __seq0, global::System.Linq.Expressions.Expression<global::System.Func<TValue>> __arg0)
         {
         __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>>(seq);
-        __builder.AddAttribute(__seq0, "For", __arg0);
+        __builder.AddAttribute(__seq0, "For", (object)__arg0);
         __builder.CloseComponent();
         }
     }

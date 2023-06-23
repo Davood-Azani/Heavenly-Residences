@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Heavenly Residences\\Models\\Models.csproj",
+      "projectUniqueName": "E:\\Git\\Heavenly Residences\\Heavenly Residences\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "D:\\Projects\\Heavenly Residences\\Models\\Models.csproj",
+      "projectPath": "E:\\Git\\Heavenly Residences\\Heavenly Residences\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\D\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Heavenly Residences\\Models\\obj\\",
+      "outputPath": "E:\\Git\\Heavenly Residences\\Heavenly Residences\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -69,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

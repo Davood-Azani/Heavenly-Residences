@@ -175,8 +175,8 @@ using Radzen.Blazor;
                 __builder2.AddAttribute(16, "class", "nav-item p-0");
                 __builder2.AddAttribute(17, "b-bvrkfrjm2h");
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(18);
-                __builder2.AddAttribute(19, "class", "nav-link");
-                __builder2.AddAttribute(20, "href", "#");
+                __builder2.AddAttribute(19, "class", (object)("nav-link"));
+                __builder2.AddAttribute(20, "href", (object)("#"));
                 __builder2.AddAttribute(21, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder3) => {
                     __builder3.OpenElement(22, "span");
                     __builder3.AddAttribute(23, "class", "p-2");
@@ -200,8 +200,8 @@ __builder3.AddContent(26, context.User.Identity.Name);
                 __builder2.AddAttribute(30, "class", "nav-item p-0");
                 __builder2.AddAttribute(31, "b-bvrkfrjm2h");
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(32);
-                __builder2.AddAttribute(33, "class", "nav-link");
-                __builder2.AddAttribute(34, "href", "logout");
+                __builder2.AddAttribute(33, "class", (object)("nav-link"));
+                __builder2.AddAttribute(34, "href", (object)("logout"));
                 __builder2.AddAttribute(35, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder3) => {
                     __builder3.AddMarkupContent(36, "<span class=\"p-2\" b-bvrkfrjm2h>\n                                Logout\n                            </span>");
                 }
@@ -215,8 +215,8 @@ __builder3.AddContent(26, context.User.Identity.Name);
                 __builder2.AddAttribute(39, "class", "nav-item p-0");
                 __builder2.AddAttribute(40, "b-bvrkfrjm2h");
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(41);
-                __builder2.AddAttribute(42, "class", "nav-link");
-                __builder2.AddAttribute(43, "href", "registration");
+                __builder2.AddAttribute(42, "class", (object)("nav-link"));
+                __builder2.AddAttribute(43, "href", (object)("registration"));
                 __builder2.AddAttribute(44, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder3) => {
                     __builder3.AddMarkupContent(45, "<span class=\"p-2\" b-bvrkfrjm2h>\n                                Register\n                            </span>");
                 }
@@ -228,8 +228,8 @@ __builder3.AddContent(26, context.User.Identity.Name);
                 __builder2.AddAttribute(48, "class", "nav-item p-0");
                 __builder2.AddAttribute(49, "b-bvrkfrjm2h");
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(50);
-                __builder2.AddAttribute(51, "class", "nav-link");
-                __builder2.AddAttribute(52, "href", "login");
+                __builder2.AddAttribute(51, "class", (object)("nav-link"));
+                __builder2.AddAttribute(52, "href", (object)("login"));
                 __builder2.AddAttribute(53, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder3) => {
                     __builder3.AddMarkupContent(54, "<span class=\"p-2\" b-bvrkfrjm2h>\n                                Login\n                            </span>");
                 }

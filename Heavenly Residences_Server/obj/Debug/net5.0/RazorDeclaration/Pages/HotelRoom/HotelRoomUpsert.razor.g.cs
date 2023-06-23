@@ -13,168 +13,168 @@ namespace Heavenly_Residences_Server.Pages.HotelRoom
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+#line 1 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+#line 2 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+#line 3 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+#line 4 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+#line 5 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+#line 6 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+#line 7 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+#line 8 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+#line 9 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Heavenly_Residences_Server;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+#line 10 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Heavenly_Residences_Server.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+#line 11 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Heavenly_Residences_Server.Pages.MyComponent;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+#line 12 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Blazored.TextEditor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+#line 13 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Radzen.Blazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 14 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
+#line 14 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\_Imports.razor"
 using Radzen;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 3 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
 using Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 4 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
 using Business.Repository.IRepository;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 5 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
 using Heavenly_Residences_Server.Helper;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 6 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
 using Microsoft.EntityFrameworkCore.Design;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 7 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
 using System.IO;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 8 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
 using Business.Repository;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 9 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
 using Common;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 10 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
 using Heavenly_Residences_Server.Services.IService;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 11 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
 using FileInfo = System.IO.FileInfo;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 17 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 17 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
            [Authorize(Roles = Common.SD.Role_Admin)]
 
 #line default
@@ -190,7 +190,7 @@ using FileInfo = System.IO.FileInfo;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 123 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
+#line 123 "E:\Git\Heavenly Residences\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoom\HotelRoomUpsert.razor"
        
 
     [Parameter]

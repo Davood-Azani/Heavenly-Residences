@@ -159,9 +159,9 @@ using Radzen;
             __builder.AddAttribute(18, "class", "nav-item px-3");
             __builder.AddAttribute(19, "b-bweuta0y3q");
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(20);
-            __builder.AddAttribute(21, "class", "nav-link");
-            __builder.AddAttribute(22, "href", "");
-            __builder.AddAttribute(23, "Match", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.Routing.NavLinkMatch>(
+            __builder.AddAttribute(21, "class", (object)("nav-link"));
+            __builder.AddAttribute(22, "href", (object)(""));
+            __builder.AddAttribute(23, "Match", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.Routing.NavLinkMatch>(
 #nullable restore
 #line 11 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Shared\NavMenu.razor"
                                                      NavLinkMatch.All
@@ -169,7 +169,7 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-            ));
+            )));
             __builder.AddAttribute(24, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
                 __builder2.AddMarkupContent(25, "<span class=\"oi oi-home\" aria-hidden=\"true\" b-bweuta0y3q></span> Home\r\n            ");
             }
@@ -181,9 +181,9 @@ using Radzen;
             __builder.AddAttribute(28, "class", "nav-item px-3");
             __builder.AddAttribute(29, "b-bweuta0y3q");
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(30);
-            __builder.AddAttribute(31, "class", "nav-link");
-            __builder.AddAttribute(32, "href", "hotel-room");
-            __builder.AddAttribute(33, "Match", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.Routing.NavLinkMatch>(
+            __builder.AddAttribute(31, "class", (object)("nav-link"));
+            __builder.AddAttribute(32, "href", (object)("hotel-room"));
+            __builder.AddAttribute(33, "Match", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.Routing.NavLinkMatch>(
 #nullable restore
 #line 31 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Shared\NavMenu.razor"
                                                                NavLinkMatch.All
@@ -191,7 +191,7 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-            ));
+            )));
             __builder.AddAttribute(34, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
                 __builder2.AddMarkupContent(35, "<span class=\"oi oi-list-rich\" aria-hidden=\"true\" b-bweuta0y3q></span> Hotel Rooms\r\n            ");
             }
@@ -203,8 +203,8 @@ using Radzen;
             __builder.AddAttribute(38, "class", "nav-item px-3");
             __builder.AddAttribute(39, "b-bweuta0y3q");
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(40);
-            __builder.AddAttribute(41, "class", "nav-link");
-            __builder.AddAttribute(42, "href", "hotel-amenity");
+            __builder.AddAttribute(41, "class", (object)("nav-link"));
+            __builder.AddAttribute(42, "href", (object)("hotel-amenity"));
             __builder.AddAttribute(43, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
                 __builder2.AddMarkupContent(44, "<span class=\"oi oi-list-rich\" aria-hidden=\"true\" b-bweuta0y3q></span> Hotel Amenity\r\n            ");
             }
@@ -216,8 +216,8 @@ using Radzen;
             __builder.AddAttribute(47, "class", "nav-item px-3");
             __builder.AddAttribute(48, "b-bweuta0y3q");
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(49);
-            __builder.AddAttribute(50, "class", "nav-link");
-            __builder.AddAttribute(51, "href", "hotel-room-order");
+            __builder.AddAttribute(50, "class", (object)("nav-link"));
+            __builder.AddAttribute(51, "href", (object)("hotel-room-order"));
             __builder.AddAttribute(52, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
                 __builder2.AddMarkupContent(53, "<span class=\"oi oi-list-rich\" aria-hidden=\"true\" b-bweuta0y3q></span> Hotel Room\'s Order\r\n            ");
             }

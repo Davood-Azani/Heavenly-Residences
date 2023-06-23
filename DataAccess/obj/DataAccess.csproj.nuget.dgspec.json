@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Heavenly Residences\\DataAccess\\DataAccess.csproj": {}
+    "E:\\Git\\Heavenly Residences\\Heavenly Residences\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Heavenly Residences\\DataAccess\\DataAccess.csproj": {
+    "E:\\Git\\Heavenly Residences\\Heavenly Residences\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Heavenly Residences\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "E:\\Git\\Heavenly Residences\\Heavenly Residences\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Projects\\Heavenly Residences\\DataAccess\\DataAccess.csproj",
+        "projectPath": "E:\\Git\\Heavenly Residences\\Heavenly Residences\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\D\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Heavenly Residences\\DataAccess\\obj\\",
+        "outputPath": "E:\\Git\\Heavenly Residences\\Heavenly Residences\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

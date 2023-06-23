@@ -170,7 +170,7 @@ using Microsoft.AspNetCore.Components;
 #line hidden
 #nullable disable
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.EditForm>(0);
-            __builder.AddAttribute(1, "Model", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Object>(
+            __builder.AddAttribute(1, "Model", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Object>(
 #nullable restore
 #line 9 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\HotelRooms\HotelRooms.razor"
                      HomeModel
@@ -178,8 +178,8 @@ using Microsoft.AspNetCore.Components;
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(2, "OnValidSubmit", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Forms.EditContext>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
+            )));
+            __builder.AddAttribute(2, "OnValidSubmit", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Forms.EditContext>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
 #nullable restore
 #line 9 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\HotelRooms\HotelRooms.razor"
                                                SaveBookingInfo
@@ -187,8 +187,8 @@ using Microsoft.AspNetCore.Components;
 #line default
 #line hidden
 #nullable disable
-            )));
-            __builder.AddAttribute(3, "class", "bg-light");
+            ))));
+            __builder.AddAttribute(3, "class", (object)("bg-light"));
             __builder.AddAttribute(4, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Forms.EditContext>)((context) => (__builder2) => {
                 __builder2.OpenElement(5, "div");
                 __builder2.AddAttribute(6, "class", "pt-3 pb-2 px-5 mx-1 mx-md-0 bg-secondary");
@@ -793,10 +793,10 @@ namespace __Blazor.Heavenly_Residences_Client.Pages.HotelRooms.HotelRooms
         public static void CreateInputDate_0<TValue>(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder, int seq, int __seq0, global::System.Object __arg0, int __seq1, TValue __arg1, int __seq2, global::Microsoft.AspNetCore.Components.EventCallback<TValue> __arg2, int __seq3, global::System.Linq.Expressions.Expression<global::System.Func<TValue>> __arg3)
         {
         __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.InputDate<TValue>>(seq);
-        __builder.AddAttribute(__seq0, "class", __arg0);
-        __builder.AddAttribute(__seq1, "Value", __arg1);
-        __builder.AddAttribute(__seq2, "ValueChanged", __arg2);
-        __builder.AddAttribute(__seq3, "ValueExpression", __arg3);
+        __builder.AddAttribute(__seq0, "class", (object)__arg0);
+        __builder.AddAttribute(__seq1, "Value", (object)__arg1);
+        __builder.AddAttribute(__seq2, "ValueChanged", (object)__arg2);
+        __builder.AddAttribute(__seq3, "ValueExpression", (object)__arg3);
         __builder.CloseComponent();
         }
     }

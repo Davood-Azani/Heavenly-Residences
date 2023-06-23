@@ -151,7 +151,7 @@ __builder.AddContent(6, CountOfSelectedRooms);
 #line hidden
 #nullable disable
             __builder.OpenComponent<global::Heavenly_Residences_Server.Pages.MyComponent.IndivitudalRoom>(7);
-            __builder.AddAttribute(8, "Room", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Heavenly_Residences_Server.Model.BlazorRoom>(
+            __builder.AddAttribute(8, "Room", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Heavenly_Residences_Server.Model.BlazorRoom>(
 #nullable restore
 #line 15 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\DemoHotel.razor"
                                item
@@ -159,8 +159,8 @@ __builder.AddContent(6, CountOfSelectedRooms);
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(9, "OnSelecetedRoom", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.Boolean>(this, 
+            )));
+            __builder.AddAttribute(9, "OnSelecetedRoom", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.Boolean>(this, 
 #nullable restore
 #line 15 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\DemoHotel.razor"
                                                       SelecetedRoom
@@ -168,7 +168,7 @@ __builder.AddContent(6, CountOfSelectedRooms);
 #line default
 #line hidden
 #nullable disable
-            )));
+            ))));
             __builder.CloseComponent();
 #nullable restore
 #line 16 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\DemoHotel.razor"
@@ -187,7 +187,7 @@ __builder.AddContent(6, CountOfSelectedRooms);
 #line hidden
 #nullable disable
             __builder.OpenComponent<global::Heavenly_Residences_Server.Pages.MyComponent.IndivitudalAmenities>(10);
-            __builder.AddAttribute(11, "Amenity", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Heavenly_Residences_Server.Model.BlazorAmenities>(
+            __builder.AddAttribute(11, "Amenity", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Heavenly_Residences_Server.Model.BlazorAmenities>(
 #nullable restore
 #line 21 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\DemoHotel.razor"
                                        item
@@ -195,8 +195,8 @@ __builder.AddContent(6, CountOfSelectedRooms);
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(12, "onSelectedAmenities", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, 
+            )));
+            __builder.AddAttribute(12, "onSelectedAmenities", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, 
 #nullable restore
 #line 21 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\DemoHotel.razor"
                                                                    ChangeSelectedAmenities
@@ -204,7 +204,7 @@ __builder.AddContent(6, CountOfSelectedRooms);
 #line default
 #line hidden
 #nullable disable
-            )));
+            ))));
             __builder.CloseComponent();
 #nullable restore
 #line 22 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\DemoHotel.razor"

@@ -115,7 +115,7 @@ using Radzen;
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Authorization.CascadingAuthenticationState>(0);
             __builder.AddAttribute(1, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.Router>(2);
-                __builder2.AddAttribute(3, "AppAssembly", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Reflection.Assembly>(
+                __builder2.AddAttribute(3, "AppAssembly", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Reflection.Assembly>(
 #nullable restore
 #line 3 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\App.razor"
                           typeof(Program).Assembly
@@ -123,8 +123,8 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-                ));
-                __builder2.AddAttribute(4, "PreferExactMatches", 
+                )));
+                __builder2.AddAttribute(4, "PreferExactMatches", (object)(
 #nullable restore
 #line 3 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\App.razor"
                                                                          true
@@ -132,10 +132,10 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-                );
+                ));
                 __builder2.AddAttribute(5, "Found", (global::Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.RouteData>)((routeData) => (__builder3) => {
                     __builder3.OpenComponent<global::Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView>(6);
-                    __builder3.AddAttribute(7, "RouteData", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.RouteData>(
+                    __builder3.AddAttribute(7, "RouteData", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.RouteData>(
 #nullable restore
 #line 5 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\App.razor"
                                             routeData
@@ -143,8 +143,8 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-                    ));
-                    __builder3.AddAttribute(8, "DefaultLayout", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Type>(
+                    )));
+                    __builder3.AddAttribute(8, "DefaultLayout", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Type>(
 #nullable restore
 #line 5 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\App.razor"
                                                                        typeof(MainLayout)
@@ -152,14 +152,14 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-                    ));
+                    )));
                     __builder3.AddAttribute(9, "NotAuthorized", (global::Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Authorization.AuthenticationState>)((context) => (__builder4) => {
                         __builder4.OpenComponent<global::Radzen.Blazor.RadzenStack>(10);
-                        __builder4.AddAttribute(11, "Gap", "0");
-                        __builder4.AddAttribute(12, "class", "rz-py-8 rz-px-12");
+                        __builder4.AddAttribute(11, "Gap", (object)("0"));
+                        __builder4.AddAttribute(12, "class", (object)("rz-py-8 rz-px-12"));
                         __builder4.AddAttribute(13, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder5) => {
                             __builder5.OpenComponent<global::Radzen.Blazor.RadzenAlert>(14);
-                            __builder5.AddAttribute(15, "AlertStyle", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.AlertStyle>(
+                            __builder5.AddAttribute(15, "AlertStyle", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.AlertStyle>(
 #nullable restore
 #line 11 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\App.razor"
                                                  AlertStyle.Danger
@@ -167,8 +167,8 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-                            ));
-                            __builder5.AddAttribute(16, "ShowIcon", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
+                            )));
+                            __builder5.AddAttribute(16, "ShowIcon", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
 #nullable restore
 #line 11 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\App.razor"
                                                                               false
@@ -176,8 +176,8 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-                            ));
-                            __builder5.AddAttribute(17, "Variant", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.Variant>(
+                            )));
+                            __builder5.AddAttribute(17, "Variant", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.Variant>(
 #nullable restore
 #line 11 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\App.razor"
                                                                                               Variant.Flat
@@ -185,8 +185,8 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-                            ));
-                            __builder5.AddAttribute(18, "Shade", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.Shade>(
+                            )));
+                            __builder5.AddAttribute(18, "Shade", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.Shade>(
 #nullable restore
 #line 11 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\App.razor"
                                                                                                                    Shade.Lighter
@@ -194,7 +194,7 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-                            ));
+                            )));
                             __builder5.AddAttribute(19, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder6) => {
                                 __builder6.AddMarkupContent(20, "<p>Sorry ! You Do not have Access to this Page...</p>");
                             }
@@ -210,7 +210,7 @@ using Radzen;
                 ));
                 __builder2.AddAttribute(21, "NotFound", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder3) => {
                     __builder3.OpenComponent<global::Microsoft.AspNetCore.Components.LayoutView>(22);
-                    __builder3.AddAttribute(23, "Layout", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Type>(
+                    __builder3.AddAttribute(23, "Layout", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Type>(
 #nullable restore
 #line 22 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\App.razor"
                                  typeof(MainLayout)
@@ -218,15 +218,15 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-                    ));
+                    )));
                     __builder3.AddAttribute(24, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder4) => {
                         __builder4.OpenComponent<global::Radzen.Blazor.RadzenStack>(25);
-                        __builder4.AddAttribute(26, "Gap", "0");
-                        __builder4.AddAttribute(27, "class", "rz-py-8 rz-px-12");
+                        __builder4.AddAttribute(26, "Gap", (object)("0"));
+                        __builder4.AddAttribute(27, "class", (object)("rz-py-8 rz-px-12"));
                         __builder4.AddAttribute(28, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder5) => {
                             __builder5.OpenComponent<global::Radzen.Blazor.RadzenAlert>(29);
-                            __builder5.AddAttribute(30, "Title", "WOW!");
-                            __builder5.AddAttribute(31, "AlertStyle", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.AlertStyle>(
+                            __builder5.AddAttribute(30, "Title", (object)("WOW!"));
+                            __builder5.AddAttribute(31, "AlertStyle", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.AlertStyle>(
 #nullable restore
 #line 25 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\App.razor"
                                                           AlertStyle.Info
@@ -234,8 +234,8 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-                            ));
-                            __builder5.AddAttribute(32, "Variant", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.Variant>(
+                            )));
+                            __builder5.AddAttribute(32, "Variant", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.Variant>(
 #nullable restore
 #line 25 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\App.razor"
                                                                                     Variant.Flat
@@ -243,8 +243,8 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-                            ));
-                            __builder5.AddAttribute(33, "Shade", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.Shade>(
+                            )));
+                            __builder5.AddAttribute(33, "Shade", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.Shade>(
 #nullable restore
 #line 25 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\App.razor"
                                                                                                          Shade.Lighter
@@ -252,7 +252,7 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-                            ));
+                            )));
                             __builder5.AddAttribute(34, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder6) => {
                                 __builder6.AddMarkupContent(35, "<p>Sorry, there\'s nothing at this address.</p>");
                             }

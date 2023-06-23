@@ -122,7 +122,7 @@ using Heavenly_Residences_Server.Model;
         {
             __builder.AddMarkupContent(0, "<h1>Hello</h1>\r\n\r\nHeavenly Residences Server Management\r\n\r\n    ");
             __builder.OpenComponent<global::Heavenly_Residences_Server.Shared.SurveyPrompt>(1);
-            __builder.AddAttribute(2, "Title", "If You are Admin,Please login to Manage!");
+            __builder.AddAttribute(2, "Title", (object)("If You are Admin,Please login to Manage!"));
             __builder.CloseComponent();
         }
         #pragma warning restore 1998

@@ -188,7 +188,7 @@ else
                 <span class=""sr-only"">Next</span></a></div></div>
     ");
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.EditForm>(2);
-            __builder.AddAttribute(3, "Model", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Object>(
+            __builder.AddAttribute(3, "Model", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Object>(
 #nullable restore
 #line 56 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\Index.razor"
                      HomeModel
@@ -196,8 +196,8 @@ else
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(4, "OnValidSubmit", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Forms.EditContext>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
+            )));
+            __builder.AddAttribute(4, "OnValidSubmit", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Forms.EditContext>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
 #nullable restore
 #line 56 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\Index.razor"
                                                SaveInitialData
@@ -205,7 +205,7 @@ else
 #line default
 #line hidden
 #nullable disable
-            )));
+            ))));
             __builder.AddAttribute(5, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Forms.EditContext>)((context) => (__builder2) => {
                 __builder2.OpenElement(6, "div");
                 __builder2.AddAttribute(7, "class", "row p-0 mx-0 mt-4");
@@ -426,12 +426,12 @@ namespace __Blazor.Heavenly_Residences_Client.Pages.Index
         public static void CreateInputDate_0<TValue>(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder, int seq, int __seq0, global::System.Object __arg0, int __seq1, global::System.Object __arg1, int __seq2, global::System.Object __arg2, int __seq3, TValue __arg3, int __seq4, global::Microsoft.AspNetCore.Components.EventCallback<TValue> __arg4, int __seq5, global::System.Linq.Expressions.Expression<global::System.Func<TValue>> __arg5)
         {
         __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.InputDate<TValue>>(seq);
-        __builder.AddAttribute(__seq0, "min", __arg0);
-        __builder.AddAttribute(__seq1, "type", __arg1);
-        __builder.AddAttribute(__seq2, "class", __arg2);
-        __builder.AddAttribute(__seq3, "Value", __arg3);
-        __builder.AddAttribute(__seq4, "ValueChanged", __arg4);
-        __builder.AddAttribute(__seq5, "ValueExpression", __arg5);
+        __builder.AddAttribute(__seq0, "min", (object)__arg0);
+        __builder.AddAttribute(__seq1, "type", (object)__arg1);
+        __builder.AddAttribute(__seq2, "class", (object)__arg2);
+        __builder.AddAttribute(__seq3, "Value", (object)__arg3);
+        __builder.AddAttribute(__seq4, "ValueChanged", (object)__arg4);
+        __builder.AddAttribute(__seq5, "ValueExpression", (object)__arg5);
         __builder.CloseComponent();
         }
     }

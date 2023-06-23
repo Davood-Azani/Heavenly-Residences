@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Qf4c99W9vIbdsNLWKu7PPBjjACGXNleFxQfOND6DuBf5rzkuCRqtAe+raSA1CerNu69D3nAZjga1TCpXnl20A==",
+  "dgSpecHash": "JdxtBiNeg4pBvyD0jgGd2GXiZGqTdEDlmQg2ylqWyTAfsslErkpDds5ZGgWHScDtvcxkSmvk3SH9lnlbhShy6A==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Heavenly Residences\\Heavenly Residences_Api\\Heavenly Residences_Api.csproj",
+  "projectFilePath": "E:\\Git\\Heavenly Residences\\Heavenly Residences\\Heavenly Residences_Api\\Heavenly Residences_Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\D\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

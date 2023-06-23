@@ -255,7 +255,7 @@ __builder.AddContent(31, subItems.Id);
             __builder.CloseElement();
             __builder.AddMarkupContent(33, "\r\n");
             __builder.OpenComponent<global::Heavenly_Residences_Server.Pages.MyComponent.ButtonComponent>(34);
-            __builder.AddAttribute(35, "IsAdmin", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
+            __builder.AddAttribute(35, "IsAdmin", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
 #nullable restore
 #line 24 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\MyComponent\IndivitudalRoom.razor"
                             Room.IsActive
@@ -263,13 +263,13 @@ __builder.AddContent(31, subItems.Id);
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(36, "value", "Edit");
-            __builder.AddAttribute(37, "Class", "btn btn-danger");
+            )));
+            __builder.AddAttribute(36, "value", (object)("Edit"));
+            __builder.AddAttribute(37, "Class", (object)("btn btn-danger"));
             __builder.CloseComponent();
             __builder.AddMarkupContent(38, "\r\n");
             __builder.OpenComponent<global::Heavenly_Residences_Server.Pages.MyComponent.ButtonComponent>(39);
-            __builder.AddAttribute(40, "IsAdmin", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
+            __builder.AddAttribute(40, "IsAdmin", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
 #nullable restore
 #line 25 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\MyComponent\IndivitudalRoom.razor"
                             Room.IsActive
@@ -277,9 +277,9 @@ __builder.AddContent(31, subItems.Id);
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(41, "value", "Confirm");
-            __builder.AddAttribute(42, "Class", "btn btn-success");
+            )));
+            __builder.AddAttribute(41, "value", (object)("Confirm"));
+            __builder.AddAttribute(42, "Class", (object)("btn btn-success"));
             __builder.CloseComponent();
             __builder.AddMarkupContent(43, "\r\n<hr>");
         }

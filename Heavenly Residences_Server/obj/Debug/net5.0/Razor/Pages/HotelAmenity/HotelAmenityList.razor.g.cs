@@ -147,7 +147,7 @@ using Heavenly_Residences_Server.Helper;
             __builder.OpenElement(3, "div");
             __builder.AddAttribute(4, "class", "col-5 offset-1");
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(5);
-            __builder.AddAttribute(6, "href", 
+            __builder.AddAttribute(6, "href", (object)(
 #nullable restore
 #line 15 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityList.razor"
                          $"hotel-amenity/create"
@@ -155,8 +155,8 @@ using Heavenly_Residences_Server.Helper;
 #line default
 #line hidden
 #nullable disable
-            );
-            __builder.AddAttribute(7, "class", "btn btn-info form-control");
+            ));
+            __builder.AddAttribute(7, "class", (object)("btn btn-info form-control"));
             __builder.AddAttribute(8, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
                 __builder2.AddContent(9, "Add New Amenity ");
             }
@@ -221,7 +221,7 @@ __builder.AddContent(25, amenity.Timming);
             __builder.AddMarkupContent(30, "\n                            ");
             __builder.OpenElement(31, "td");
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(32);
-            __builder.AddAttribute(33, "href", 
+            __builder.AddAttribute(33, "href", (object)(
 #nullable restore
 #line 43 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityList.razor"
                                                  $"hotel-amenity/edit/{amenity.Id}"
@@ -229,8 +229,8 @@ __builder.AddContent(25, amenity.Timming);
 #line default
 #line hidden
 #nullable disable
-            );
-            __builder.AddAttribute(34, "class", "btn btn-primary");
+            ));
+            __builder.AddAttribute(34, "class", (object)("btn btn-primary"));
             __builder.AddAttribute(35, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
                 __builder2.AddContent(36, "Edit");
             }
@@ -276,7 +276,7 @@ __builder.AddContent(25, amenity.Timming);
             __builder.CloseElement();
             __builder.AddMarkupContent(43, "\n");
             __builder.OpenComponent<global::Heavenly_Residences_Server.Shared.DeleteConfirmation>(44);
-            __builder.AddAttribute(45, "IsParentComponentProcessing", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
+            __builder.AddAttribute(45, "IsParentComponentProcessing", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
 #nullable restore
 #line 61 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityList.razor"
                                                  IsProcessing
@@ -284,8 +284,8 @@ __builder.AddContent(25, amenity.Timming);
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(46, "ConfirmationChanged", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.Boolean>(this, 
+            )));
+            __builder.AddAttribute(46, "ConfirmationChanged", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.Boolean>(this, 
 #nullable restore
 #line 61 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelAmenity\HotelAmenityList.razor"
                                                                                     ConfirmDelete_Click
@@ -293,7 +293,7 @@ __builder.AddContent(25, amenity.Timming);
 #line default
 #line hidden
 #nullable disable
-            )));
+            ))));
             __builder.CloseComponent();
         }
         #pragma warning restore 1998

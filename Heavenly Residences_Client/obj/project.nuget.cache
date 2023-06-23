@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qjhKf+JoqZMrgnFBjtccEiNjUkodgLYye6xSL5npFGhcHJ1u1HDjvtDJJU05M6Ef7SZHJiE8wSQm955hPbdLYw==",
+  "dgSpecHash": "vW820RQHsGijSMwyu8X9yRQ3XsZMBzEyf8RlO13YwLO03tZ3pa9WIgt1++RoEV87+ut2UawyQKdZb3hLbY14UQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Heavenly Residences\\Heavenly Residences_Client\\Heavenly Residences_Client.csproj",
+  "projectFilePath": "E:\\Git\\Heavenly Residences\\Heavenly Residences\\Heavenly Residences_Client\\Heavenly Residences_Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\D\\.nuget\\packages\\blazored.localstorage\\3.0.0\\blazored.localstorage.3.0.0.nupkg.sha512",
     "C:\\Users\\D\\.nuget\\packages\\libsassbuilder\\2.0.1\\libsassbuilder.2.0.1.nupkg.sha512",

@@ -144,7 +144,7 @@ using Radzen;
 #nullable disable
             __builder.AddMarkupContent(0, "<h4 class=\"card-title text-info\">Hotel Room Order\'s</h4>\n    ");
             __builder.OpenComponent<global::Radzen.Blazor.RadzenGrid<RoomOrderDetailsDTO>>(1);
-            __builder.AddAttribute(2, "AllowFiltering", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
+            __builder.AddAttribute(2, "AllowFiltering", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
 #nullable restore
 #line 13 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoomOrder\HotelRoomOrderList.razor"
                                 true
@@ -152,8 +152,8 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(3, "FilterCaseSensitivity", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.FilterCaseSensitivity>(
+            )));
+            __builder.AddAttribute(3, "FilterCaseSensitivity", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.FilterCaseSensitivity>(
 #nullable restore
 #line 14 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoomOrder\HotelRoomOrderList.razor"
                                        FilterCaseSensitivity.CaseInsensitive
@@ -161,8 +161,8 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(4, "FilterMode", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.FilterMode>(
+            )));
+            __builder.AddAttribute(4, "FilterMode", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Radzen.FilterMode>(
 #nullable restore
 #line 15 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoomOrder\HotelRoomOrderList.razor"
                             FilterMode.Advanced
@@ -170,8 +170,8 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(5, "AllowPaging", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
+            )));
+            __builder.AddAttribute(5, "AllowPaging", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
 #nullable restore
 #line 15 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoomOrder\HotelRoomOrderList.razor"
                                                               true
@@ -179,8 +179,8 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(6, "PageSize", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Int32>(
+            )));
+            __builder.AddAttribute(6, "PageSize", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Int32>(
 #nullable restore
 #line 15 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoomOrder\HotelRoomOrderList.razor"
                                                                               12
@@ -188,8 +188,8 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(7, "AllowSorting", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
+            )));
+            __builder.AddAttribute(7, "AllowSorting", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Boolean>(
 #nullable restore
 #line 16 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoomOrder\HotelRoomOrderList.razor"
                               true
@@ -197,8 +197,8 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(8, "Data", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Collections.Generic.IEnumerable<RoomOrderDetailsDTO>>(
+            )));
+            __builder.AddAttribute(8, "Data", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Collections.Generic.IEnumerable<RoomOrderDetailsDTO>>(
 #nullable restore
 #line 16 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoomOrder\HotelRoomOrderList.razor"
                                            HotelRoomOrders
@@ -206,37 +206,37 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(9, "ColumnWidth", "200px");
+            )));
+            __builder.AddAttribute(9, "ColumnWidth", (object)("200px"));
             __builder.AddAttribute(10, "Columns", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
                 __builder2.OpenComponent<global::Radzen.Blazor.RadzenGridColumn<RoomOrderDetailsDTO>>(11);
-                __builder2.AddAttribute(12, "Property", "Name");
-                __builder2.AddAttribute(13, "Title", "Customer Name");
+                __builder2.AddAttribute(12, "Property", (object)("Name"));
+                __builder2.AddAttribute(13, "Title", (object)("Customer Name"));
                 __builder2.CloseComponent();
                 __builder2.AddMarkupContent(14, "\n            ");
                 __builder2.OpenComponent<global::Radzen.Blazor.RadzenGridColumn<RoomOrderDetailsDTO>>(15);
-                __builder2.AddAttribute(16, "Property", "Phone");
-                __builder2.AddAttribute(17, "Title", "Customer Name");
+                __builder2.AddAttribute(16, "Property", (object)("Phone"));
+                __builder2.AddAttribute(17, "Title", (object)("Customer Name"));
                 __builder2.CloseComponent();
                 __builder2.AddMarkupContent(18, "\n            ");
                 __builder2.OpenComponent<global::Radzen.Blazor.RadzenGridColumn<RoomOrderDetailsDTO>>(19);
-                __builder2.AddAttribute(20, "Property", "Email");
-                __builder2.AddAttribute(21, "Title", "Customer Name");
+                __builder2.AddAttribute(20, "Property", (object)("Email"));
+                __builder2.AddAttribute(21, "Title", (object)("Customer Name"));
                 __builder2.CloseComponent();
                 __builder2.AddMarkupContent(22, "\n            ");
                 __builder2.OpenComponent<global::Radzen.Blazor.RadzenGridColumn<RoomOrderDetailsDTO>>(23);
-                __builder2.AddAttribute(24, "Property", "HotelRoomDTO.Name");
-                __builder2.AddAttribute(25, "Title", "Room");
+                __builder2.AddAttribute(24, "Property", (object)("HotelRoomDTO.Name"));
+                __builder2.AddAttribute(25, "Title", (object)("Room"));
                 __builder2.CloseComponent();
                 __builder2.AddMarkupContent(26, "\n            ");
                 __builder2.OpenComponent<global::Radzen.Blazor.RadzenGridColumn<RoomOrderDetailsDTO>>(27);
-                __builder2.AddAttribute(28, "Property", "Status");
-                __builder2.AddAttribute(29, "Title", "Status");
+                __builder2.AddAttribute(28, "Property", (object)("Status"));
+                __builder2.AddAttribute(29, "Title", (object)("Status"));
                 __builder2.CloseComponent();
                 __builder2.AddMarkupContent(30, "\n            ");
                 __builder2.OpenComponent<global::Radzen.Blazor.RadzenGridColumn<RoomOrderDetailsDTO>>(31);
-                __builder2.AddAttribute(32, "Property", "CheckInDate");
-                __builder2.AddAttribute(33, "Title", "Check in Date");
+                __builder2.AddAttribute(32, "Property", (object)("CheckInDate"));
+                __builder2.AddAttribute(33, "Title", (object)("Check in Date"));
                 __builder2.AddAttribute(34, "Template", (global::Microsoft.AspNetCore.Components.RenderFragment<RoomOrderDetailsDTO>)((data) => (__builder3) => {
 #nullable restore
 #line 25 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoomOrder\HotelRoomOrderList.razor"
@@ -250,12 +250,12 @@ __builder3.AddContent(35, String.Format("{0:d}", data.CheckInDate));
                 __builder2.CloseComponent();
                 __builder2.AddMarkupContent(36, "\n\n            ");
                 __builder2.OpenComponent<global::Radzen.Blazor.RadzenGridColumn<RoomOrderDetailsDTO>>(37);
-                __builder2.AddAttribute(38, "Property", "Id");
-                __builder2.AddAttribute(39, "Title", "");
+                __builder2.AddAttribute(38, "Property", (object)("Id"));
+                __builder2.AddAttribute(39, "Title", (object)(""));
                 __builder2.AddAttribute(40, "Template", (global::Microsoft.AspNetCore.Components.RenderFragment<RoomOrderDetailsDTO>)((data) => (__builder3) => {
                     __builder3.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(41);
-                    __builder3.AddAttribute(42, "class", "btn btn-primary");
-                    __builder3.AddAttribute(43, "href", 
+                    __builder3.AddAttribute(42, "class", (object)("btn btn-primary"));
+                    __builder3.AddAttribute(43, "href", (object)(
 #nullable restore
 #line 31 "D:\Projects\Heavenly Residences\Heavenly Residences_Server\Pages\HotelRoomOrder\HotelRoomOrderList.razor"
                                                              $"hotel-room-order/details/{data.Id}"
@@ -263,7 +263,7 @@ __builder3.AddContent(35, String.Format("{0:d}", data.CheckInDate));
 #line default
 #line hidden
 #nullable disable
-                    );
+                    ));
                     __builder3.AddAttribute(44, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder4) => {
                         __builder4.AddContent(45, "Details");
                     }

@@ -160,7 +160,7 @@ using Radzen.Blazor;
             __builder.AddAttribute(2, "class", "bg-dark border");
             __builder.AddMarkupContent(3, "<h1 class=\"h3 mb-3 pt-3 font-weight-normal text-primary\" style=\"text-align:center;\">Sign In</h1>\n\n    ");
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.EditForm>(4);
-            __builder.AddAttribute(5, "Model", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Object>(
+            __builder.AddAttribute(5, "Model", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Object>(
 #nullable restore
 #line 7 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\Authentication\Login.razor"
                      UserForAuthentication
@@ -168,8 +168,8 @@ using Radzen.Blazor;
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(6, "OnValidSubmit", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Forms.EditContext>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
+            )));
+            __builder.AddAttribute(6, "OnValidSubmit", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Forms.EditContext>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
 #nullable restore
 #line 7 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\Authentication\Login.razor"
                                                            LoginUser
@@ -177,7 +177,7 @@ using Radzen.Blazor;
 #line default
 #line hidden
 #nullable disable
-            )));
+            ))));
             __builder.AddAttribute(7, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Forms.EditContext>)((context) => (__builder2) => {
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator>(8);
                 __builder2.CloseComponent();
@@ -207,10 +207,10 @@ __builder2.AddContent(11, Errors);
 #line hidden
 #nullable disable
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.InputText>(12);
-                __builder2.AddAttribute(13, "id", "email");
-                __builder2.AddAttribute(14, "placeholder", "Email...");
-                __builder2.AddAttribute(15, "class", "form-control mb-2");
-                __builder2.AddAttribute(16, "Value", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
+                __builder2.AddAttribute(13, "id", (object)("email"));
+                __builder2.AddAttribute(14, "placeholder", (object)("Email..."));
+                __builder2.AddAttribute(15, "class", (object)("form-control mb-2"));
+                __builder2.AddAttribute(16, "Value", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
 #nullable restore
 #line 15 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\Authentication\Login.razor"
                                 UserForAuthentication.UserName
@@ -218,9 +218,9 @@ __builder2.AddContent(11, Errors);
 #line default
 #line hidden
 #nullable disable
-                ));
-                __builder2.AddAttribute(17, "ValueChanged", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => UserForAuthentication.UserName = __value, UserForAuthentication.UserName))));
-                __builder2.AddAttribute(18, "ValueExpression", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => UserForAuthentication.UserName));
+                )));
+                __builder2.AddAttribute(17, "ValueChanged", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => UserForAuthentication.UserName = __value, UserForAuthentication.UserName)))));
+                __builder2.AddAttribute(18, "ValueExpression", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => UserForAuthentication.UserName)));
                 __builder2.CloseComponent();
                 __builder2.AddMarkupContent(19, "\n        ");
                 global::__Blazor.Heavenly_Residences_Client.Pages.Authentication.Login.TypeInference.CreateValidationMessage_0(__builder2, 20, 21, 
@@ -234,11 +234,11 @@ __builder2.AddContent(11, Errors);
                 );
                 __builder2.AddMarkupContent(22, "\n        ");
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.InputText>(23);
-                __builder2.AddAttribute(24, "type", "password");
-                __builder2.AddAttribute(25, "placeholder", "Password...");
-                __builder2.AddAttribute(26, "id", "password");
-                __builder2.AddAttribute(27, "class", "form-control mb-2");
-                __builder2.AddAttribute(28, "Value", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
+                __builder2.AddAttribute(24, "type", (object)("password"));
+                __builder2.AddAttribute(25, "placeholder", (object)("Password..."));
+                __builder2.AddAttribute(26, "id", (object)("password"));
+                __builder2.AddAttribute(27, "class", (object)("form-control mb-2"));
+                __builder2.AddAttribute(28, "Value", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
 #nullable restore
 #line 17 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\Authentication\Login.razor"
                                 UserForAuthentication.Password
@@ -246,9 +246,9 @@ __builder2.AddContent(11, Errors);
 #line default
 #line hidden
 #nullable disable
-                ));
-                __builder2.AddAttribute(29, "ValueChanged", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => UserForAuthentication.Password = __value, UserForAuthentication.Password))));
-                __builder2.AddAttribute(30, "ValueExpression", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => UserForAuthentication.Password));
+                )));
+                __builder2.AddAttribute(29, "ValueChanged", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => UserForAuthentication.Password = __value, UserForAuthentication.Password)))));
+                __builder2.AddAttribute(30, "ValueExpression", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => UserForAuthentication.Password)));
                 __builder2.CloseComponent();
                 __builder2.AddMarkupContent(31, "\n        ");
                 global::__Blazor.Heavenly_Residences_Client.Pages.Authentication.Login.TypeInference.CreateValidationMessage_1(__builder2, 32, 33, 
@@ -303,13 +303,13 @@ namespace __Blazor.Heavenly_Residences_Client.Pages.Authentication.Login
         public static void CreateValidationMessage_0<TValue>(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder, int seq, int __seq0, global::System.Linq.Expressions.Expression<global::System.Func<TValue>> __arg0)
         {
         __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>>(seq);
-        __builder.AddAttribute(__seq0, "For", __arg0);
+        __builder.AddAttribute(__seq0, "For", (object)__arg0);
         __builder.CloseComponent();
         }
         public static void CreateValidationMessage_1<TValue>(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder, int seq, int __seq0, global::System.Linq.Expressions.Expression<global::System.Func<TValue>> __arg0)
         {
         __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.ValidationMessage<TValue>>(seq);
-        __builder.AddAttribute(__seq0, "For", __arg0);
+        __builder.AddAttribute(__seq0, "For", (object)__arg0);
         __builder.CloseComponent();
         }
     }

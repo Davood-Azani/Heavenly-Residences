@@ -450,7 +450,7 @@ __builder.AddContent(93, (MarkupString)@HotelBooking.OrderDetails.HotelRoomDTO.D
             __builder.AddAttribute(96, "class", "col-12 col-lg-5 p-4 2 mt-4 mt-md-0");
             __builder.AddAttribute(97, "style", "border: 1px solid #fff;");
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.EditForm>(98);
-            __builder.AddAttribute(99, "Model", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Object>(
+            __builder.AddAttribute(99, "Model", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Object>(
 #nullable restore
 #line 103 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\HotelRooms\RoomDetails.razor"
                              HotelBooking
@@ -458,9 +458,9 @@ __builder.AddContent(93, (MarkupString)@HotelBooking.OrderDetails.HotelRoomDTO.D
 #line default
 #line hidden
 #nullable disable
-            ));
-            __builder.AddAttribute(100, "class", "container");
-            __builder.AddAttribute(101, "OnValidSubmit", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Forms.EditContext>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
+            )));
+            __builder.AddAttribute(100, "class", (object)("container"));
+            __builder.AddAttribute(101, "OnValidSubmit", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::Microsoft.AspNetCore.Components.Forms.EditContext>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::Microsoft.AspNetCore.Components.Forms.EditContext>(this, 
 #nullable restore
 #line 103 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\HotelRooms\RoomDetails.razor"
                                                                             HandleCheckout
@@ -468,16 +468,16 @@ __builder.AddContent(93, (MarkupString)@HotelBooking.OrderDetails.HotelRoomDTO.D
 #line default
 #line hidden
 #nullable disable
-            )));
+            ))));
             __builder.AddAttribute(102, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Forms.EditContext>)((context) => (__builder2) => {
                 __builder2.AddMarkupContent(103, "<div class=\"row px-2 text-success border-bottom\"><div class=\"col-7 py-1\"><p style=\"font-size:x-large;margin:0px;\">Enter Details</p></div></div>\n\n                ");
                 __builder2.OpenElement(104, "div");
                 __builder2.AddAttribute(105, "class", "form-group pt-2");
                 __builder2.AddMarkupContent(106, "<label class=\"text-warning\">Name</label>\n                    ");
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.InputText>(107);
-                __builder2.AddAttribute(108, "type", "text");
-                __builder2.AddAttribute(109, "class", "form-control");
-                __builder2.AddAttribute(110, "Value", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
+                __builder2.AddAttribute(108, "type", (object)("text"));
+                __builder2.AddAttribute(109, "class", (object)("form-control"));
+                __builder2.AddAttribute(110, "Value", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
 #nullable restore
 #line 109 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\HotelRooms\RoomDetails.razor"
                                             HotelBooking.OrderDetails.Name
@@ -485,9 +485,9 @@ __builder.AddContent(93, (MarkupString)@HotelBooking.OrderDetails.HotelRoomDTO.D
 #line default
 #line hidden
 #nullable disable
-                ));
-                __builder2.AddAttribute(111, "ValueChanged", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => HotelBooking.OrderDetails.Name = __value, HotelBooking.OrderDetails.Name))));
-                __builder2.AddAttribute(112, "ValueExpression", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => HotelBooking.OrderDetails.Name));
+                )));
+                __builder2.AddAttribute(111, "ValueChanged", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => HotelBooking.OrderDetails.Name = __value, HotelBooking.OrderDetails.Name)))));
+                __builder2.AddAttribute(112, "ValueExpression", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => HotelBooking.OrderDetails.Name)));
                 __builder2.CloseComponent();
                 __builder2.CloseElement();
                 __builder2.AddMarkupContent(113, "\n                ");
@@ -495,9 +495,9 @@ __builder.AddContent(93, (MarkupString)@HotelBooking.OrderDetails.HotelRoomDTO.D
                 __builder2.AddAttribute(115, "class", "form-group pt-2");
                 __builder2.AddMarkupContent(116, "<label class=\"text-warning\">Phone</label>\n                    ");
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.InputText>(117);
-                __builder2.AddAttribute(118, "type", "text");
-                __builder2.AddAttribute(119, "class", "form-control");
-                __builder2.AddAttribute(120, "Value", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
+                __builder2.AddAttribute(118, "type", (object)("text"));
+                __builder2.AddAttribute(119, "class", (object)("form-control"));
+                __builder2.AddAttribute(120, "Value", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
 #nullable restore
 #line 113 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\HotelRooms\RoomDetails.razor"
                                             HotelBooking.OrderDetails.Phone
@@ -505,9 +505,9 @@ __builder.AddContent(93, (MarkupString)@HotelBooking.OrderDetails.HotelRoomDTO.D
 #line default
 #line hidden
 #nullable disable
-                ));
-                __builder2.AddAttribute(121, "ValueChanged", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => HotelBooking.OrderDetails.Phone = __value, HotelBooking.OrderDetails.Phone))));
-                __builder2.AddAttribute(122, "ValueExpression", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => HotelBooking.OrderDetails.Phone));
+                )));
+                __builder2.AddAttribute(121, "ValueChanged", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => HotelBooking.OrderDetails.Phone = __value, HotelBooking.OrderDetails.Phone)))));
+                __builder2.AddAttribute(122, "ValueExpression", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => HotelBooking.OrderDetails.Phone)));
                 __builder2.CloseComponent();
                 __builder2.CloseElement();
                 __builder2.AddMarkupContent(123, "\n                ");
@@ -515,9 +515,9 @@ __builder.AddContent(93, (MarkupString)@HotelBooking.OrderDetails.HotelRoomDTO.D
                 __builder2.AddAttribute(125, "class", "form-group");
                 __builder2.AddMarkupContent(126, "<label class=\"text-warning\">Email</label>\n                    ");
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.InputText>(127);
-                __builder2.AddAttribute(128, "type", "text");
-                __builder2.AddAttribute(129, "class", "form-control");
-                __builder2.AddAttribute(130, "Value", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
+                __builder2.AddAttribute(128, "type", (object)("text"));
+                __builder2.AddAttribute(129, "class", (object)("form-control"));
+                __builder2.AddAttribute(130, "Value", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.String>(
 #nullable restore
 #line 117 "D:\Projects\Heavenly Residences\Heavenly Residences_Client\Pages\HotelRooms\RoomDetails.razor"
                                             HotelBooking.OrderDetails.Email
@@ -525,9 +525,9 @@ __builder.AddContent(93, (MarkupString)@HotelBooking.OrderDetails.HotelRoomDTO.D
 #line default
 #line hidden
 #nullable disable
-                ));
-                __builder2.AddAttribute(131, "ValueChanged", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => HotelBooking.OrderDetails.Email = __value, HotelBooking.OrderDetails.Email))));
-                __builder2.AddAttribute(132, "ValueExpression", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => HotelBooking.OrderDetails.Email));
+                )));
+                __builder2.AddAttribute(131, "ValueChanged", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.EventCallback<global::System.String>>(global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::System.String>(this, global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => HotelBooking.OrderDetails.Email = __value, HotelBooking.OrderDetails.Email)))));
+                __builder2.AddAttribute(132, "ValueExpression", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Linq.Expressions.Expression<System.Func<System.String>>>(() => HotelBooking.OrderDetails.Email)));
                 __builder2.CloseComponent();
                 __builder2.CloseElement();
                 __builder2.AddMarkupContent(133, "\n                ");
@@ -852,23 +852,23 @@ namespace __Blazor.Heavenly_Residences_Client.Pages.HotelRooms.RoomDetails
         public static void CreateInputDate_0<TValue>(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder, int seq, int __seq0, global::System.Object __arg0, int __seq1, global::System.Object __arg1, int __seq2, global::System.Object __arg2, int __seq3, TValue __arg3, int __seq4, global::Microsoft.AspNetCore.Components.EventCallback<TValue> __arg4, int __seq5, global::System.Linq.Expressions.Expression<global::System.Func<TValue>> __arg5)
         {
         __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.InputDate<TValue>>(seq);
-        __builder.AddAttribute(__seq0, "type", __arg0);
-        __builder.AddAttribute(__seq1, "disabled", __arg1);
-        __builder.AddAttribute(__seq2, "class", __arg2);
-        __builder.AddAttribute(__seq3, "Value", __arg3);
-        __builder.AddAttribute(__seq4, "ValueChanged", __arg4);
-        __builder.AddAttribute(__seq5, "ValueExpression", __arg5);
+        __builder.AddAttribute(__seq0, "type", (object)__arg0);
+        __builder.AddAttribute(__seq1, "disabled", (object)__arg1);
+        __builder.AddAttribute(__seq2, "class", (object)__arg2);
+        __builder.AddAttribute(__seq3, "Value", (object)__arg3);
+        __builder.AddAttribute(__seq4, "ValueChanged", (object)__arg4);
+        __builder.AddAttribute(__seq5, "ValueExpression", (object)__arg5);
         __builder.CloseComponent();
         }
         public static void CreateInputDate_1<TValue>(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder, int seq, int __seq0, global::System.Object __arg0, int __seq1, global::System.Object __arg1, int __seq2, global::System.Object __arg2, int __seq3, TValue __arg3, int __seq4, global::Microsoft.AspNetCore.Components.EventCallback<TValue> __arg4, int __seq5, global::System.Linq.Expressions.Expression<global::System.Func<TValue>> __arg5)
         {
         __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Forms.InputDate<TValue>>(seq);
-        __builder.AddAttribute(__seq0, "type", __arg0);
-        __builder.AddAttribute(__seq1, "disabled", __arg1);
-        __builder.AddAttribute(__seq2, "class", __arg2);
-        __builder.AddAttribute(__seq3, "Value", __arg3);
-        __builder.AddAttribute(__seq4, "ValueChanged", __arg4);
-        __builder.AddAttribute(__seq5, "ValueExpression", __arg5);
+        __builder.AddAttribute(__seq0, "type", (object)__arg0);
+        __builder.AddAttribute(__seq1, "disabled", (object)__arg1);
+        __builder.AddAttribute(__seq2, "class", (object)__arg2);
+        __builder.AddAttribute(__seq3, "Value", (object)__arg3);
+        __builder.AddAttribute(__seq4, "ValueChanged", (object)__arg4);
+        __builder.AddAttribute(__seq5, "ValueExpression", (object)__arg5);
         __builder.CloseComponent();
         }
     }
