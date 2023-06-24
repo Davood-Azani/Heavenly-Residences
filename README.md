@@ -1,10 +1,10 @@
 # E-Commerce Application using Blazor WebAssembly and Blazor Server - .NET 5
 
 This project is a complete e-commerce application built using Blazor WebAssembly and Blazor Server, powered by .NET 5. It includes various features and components that make it a robust and scalable solution for building online stores.
-Features
+
 ## Features
 
-* **Admin Panel using Blazor Server** : The application provides an intuitive and feature-rich admin panel built using Blazor Server. This allows administrators to manage products, orders, customers, and other aspects of the e-commerce store efficiently.
+* **Admin Panel using Blazor Server**: The application provides an intuitive and feature-rich admin panel built using Blazor Server. This allows administrators to manage products, orders, customers, and other aspects of the e-commerce store efficiently.
 
 * **.NET 5 API**: The project utilizes a backend API built with .NET 5, providing a solid foundation for handling business logic, data management, and integration with external services.
 
@@ -19,8 +19,6 @@ Features
 * **Integrate Stripe Payments in Blazor WebAssembly**: The application integrates Stripe payment gateway, enabling seamless and secure online payments. Users can complete transactions using various payment methods, ensuring a smooth checkout experience.
 
 * **Repository Pattern and Dependency Injection**: To maintain clean and scalable code, the project implements the repository pattern for data access and utilizes dependency injection for managing dependencies. This promotes separation of concerns and improves maintainability.
-
-
 ## Getting Started
 
 To get started with this project, follow the steps below:
@@ -39,7 +37,6 @@ Contributions to this project are welcome! If you have any suggestions, improvem
 If you encounter any issues or have questions about using the application, please check the existing issues in the repository. If your problem persists, feel free to open a new issue, and the community will be happy to assist you.
 ## License
 
-
 This project is licensed under the MIT License. You are free to use, modify, and distribute the codebase as per the terms of this license.
 Acknowledgments
 
@@ -48,4 +45,3 @@ We would like to thank the contributors and the open-source community for their 
 If you find this project helpful or have any suggestions, we would love to hear from you!
 
 Happy coding!
-
