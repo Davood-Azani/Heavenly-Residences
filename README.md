@@ -38,7 +38,7 @@ If you encounter any issues or have questions about using the application, pleas
 ## License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute the codebase as per the terms of this license.
-Acknowledgments
+## Acknowledgments
 
 We would like to thank the contributors and the open-source community for their valuable contributions and support, making this project possible.
 
